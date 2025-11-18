@@ -3,14 +3,17 @@ export default function GovernanceStrategyPage() {
     {
       title: "Policy Governance",
       desc: "Develop and maintain a clear policy architecture with ownership, lifecycle, and compliance mapping.",
+      href: "/services/governance/policy-governance",
     },
     {
       title: "Business Continuity",
       desc: "Design and operate a BCMS: BIA, continuity strategies, plans, exercises, and continual improvement.",
+      href: "/services/governance/business-continuity",
     },
     {
       title: "Audit Preparation",
       desc: "Prepare for internal and external audits with evidence readiness and remediation tracking.",
+      href: "/services/governance/audit-preparation",
     },
   ];
 
@@ -41,7 +44,7 @@ export default function GovernanceStrategyPage() {
             <p className="text-slate-600 mb-3">{item.desc}</p>
 
             <a
-              href="#"
+              href={item.href}
               className="text-indigo-600 font-medium hover:text-indigo-800 transition"
             >
               Read more →

@@ -23,7 +23,7 @@ export default function NavbarClient() {
         { label: "Standards & Certifications", href: "/services/standards" },
         { label: "Risk & Assessment Services", href: "/services/risk" },
         { label: "Governance & Strategy", href: "/services/governance" },
-        { label: "Managed GRC Services", href: "/services/grc" },
+        { label: "Managed GRC Services", href: "/services/grc-services" },
       ],
     },
 
@@ -34,26 +34,23 @@ export default function NavbarClient() {
       submenu: [
         { label: "Financial Services", href: "/industries/financial-services" },
         { label: "SaaS & Technology", href: "/industries/saas-technology" },
-        { label: "Healthcare", href: "/industries/healthcare" },
-        {
-          label: "Critical Infrastructure",
-          href: "/industries/critical-infrastructure",
-        },
-        { label: "Public Sector", href: "/industries/public-sector" },
-        { label: "Manufacturing", href: "/industries/manufacturing" },
+        { label: "Healthcare", href: "/industries/healthcare-life-sciences" },
+        { label: "Critical Infrastructure",href: "/industries/critical-infrastructure-energy",},
+        { label: "Public Sector", href: "/industries/public-sector-finland" },
+        { label: "Manufacturing", href: "/industries/manufacturing-industrial" },
       ],
     },
 
     {
       name: "Resources",
       submenu: [
-        { label: "All Resources", href: "/resources" },
+        { label: "All Resources", href: "/all" },
         { label: "Webinars", href: "/resources/webinars" },
         { label: "Blog & Articles", href: "/resources/blog" },
         { label: "Frameworks", href: "/resources/frameworks" },
         { label: "Regulatory", href: "/resources/regulatory" },
-        { label: "Support & Tools", href: "/resources/tools" },
-        { label: "Platform", href: "/platform" },
+        { label: "Support & Tools", href: "/resources/support" },
+        { label: "Platform", href: "/resources/platform" },
       ],
     },
 

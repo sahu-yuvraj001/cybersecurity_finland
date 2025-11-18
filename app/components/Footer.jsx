@@ -5,14 +5,14 @@ import { Mail, Facebook, Twitter, Linkedin, Github } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 text-slate-300 pt-20 pb-12 relative overflow-hidden">
+    <footer className="bg-slate-900 text-slate-300 pt-10 pb-12 relative overflow-hidden">
 
       {/* Decorative Gradient Top Line */}
       <motion.div
         initial={{ opacity: 0, width: 0 }}
         whileInView={{ opacity: 1, width: "100%" }}
         transition={{ duration: 1 }}
-        className="absolute top-0 left-0 h-0.5 bg-gradient-to-r from-indigo-500/60 via-sky-400/40 to-transparent"
+        className="absolute top-0 left-0 h-0.5 bg-linear-to-r from-indigo-500/60 via-sky-400/40 to-transparent"
       />
 
       <div className="max-w-7xl mx-auto px-6">

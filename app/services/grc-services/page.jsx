@@ -3,10 +3,12 @@ export default function ManagedGRCServicesPage() {
     {
       title: "CISO-as-a-Service",
       desc: "On-demand security leadership: strategy, roadmap, metrics, and stakeholder reporting.",
+      href: "/services/grc-services/ciso-as-a-service",
     },
     {
       title: "Anti-Fraud Services",
       desc: "Design and operate fraud prevention: BEC/invoice fraud controls, payment controls, detection and response.",
+      href: "/services/grc-services/anti-fraud",
     },
   ];
 
@@ -37,7 +39,7 @@ export default function ManagedGRCServicesPage() {
             <p className="text-slate-600 mb-3">{item.desc}</p>
 
             <a
-              href="#"
+              href={item.href}
               className="text-indigo-600 font-medium hover:text-indigo-800 transition"
             >
               Read more →

@@ -3,14 +3,17 @@ export default function RiskAssessmentPage() {
     {
       title: "Risk Management",
       desc: "Design and operate risk management frameworks, registers, KRIs, and reporting to decision makers.",
+      href: "/services/risk/risk-management",
     },
     {
       title: "Risk Assessments",
       desc: "Perform technical and organizational risk assessments using proven methodologies.",
+      href: "/services/risk/risk-assesment",
     },
     {
       title: "Third-Party Risk",
       desc: "Establish TPRM lifecycle, due diligence, contractual controls, and continuous monitoring.",
+      href: "/services/risk/third-party-risk",
     },
   ];
 
@@ -41,7 +44,7 @@ export default function RiskAssessmentPage() {
             <p className="text-slate-600 mb-3">{item.desc}</p>
 
             <a
-              href="#"
+              href={item.href}
               className="text-indigo-600 font-medium hover:text-indigo-800 transition"
             >
               Read more →
