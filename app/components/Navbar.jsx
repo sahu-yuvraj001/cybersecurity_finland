@@ -16,10 +16,7 @@ export default function NavbarClient() {
     {
       name: "Services",
       submenu: [
-        {
-          label: "Regulatory Compliance",
-          href: "/services/regulatory-compliance",
-        },
+        {label: "Regulatory Compliance", href: "/services/regulatory-compliance"},
         { label: "Standards & Certifications", href: "/services/standards" },
         { label: "Risk & Assessment Services", href: "/services/risk" },
         { label: "Governance & Strategy", href: "/services/governance" },
@@ -55,7 +52,17 @@ export default function NavbarClient() {
     },
 
     { name: "Webinars", href: "/webinars" },
-    { name: "About", href: "/about" },
+    {
+  name: "About",
+  submenu: [
+    { label: "Our Team", href: "/about/team" },
+    { label: "Company Story", href: "/about/story" },
+    { label: "Certifications", href: "/about/certifications" },
+    { label: "Careers", href: "/about/careers" },
+  ],
+},
+
+    { name: "Contact", href: "/contact" },
   ];
 
   const navLink =

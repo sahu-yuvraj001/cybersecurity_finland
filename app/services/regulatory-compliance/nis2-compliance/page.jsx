@@ -108,7 +108,7 @@ export default function NIS2CompliancePage() {
               <Link href="/contact" className="inline-flex items-center px-5 py-3 bg-slate-900 text-white rounded-md shadow hover:bg-slate-800 transition">
                 Start NIS2 Assessment
               </Link>
-              <Link href="/resources/nis2-framework" className="inline-flex items-center px-5 py-3 border border-slate-200 text-slate-800 rounded-md hover:bg-slate-50 transition">
+              <Link href="/frameworks/nis2" className="inline-flex items-center px-5 py-3 border border-slate-200 text-slate-800 rounded-md hover:bg-slate-50 transition">
                 View NIS2 Framework
               </Link>
             </div>
@@ -195,28 +195,7 @@ export default function NIS2CompliancePage() {
         </div>
       </section>
 
-      {/* Footer small */}
-      <footer className="border-t border-slate-100 mt-12">
-        <div className="max-w-7xl mx-auto px-6 lg:px-10 py-8 text-sm text-slate-600">
-          <div className="flex flex-col md:flex-row justify-between gap-6">
-            <div>
-              <h4 className="font-semibold text-slate-900">Cyber Security Finland</h4>
-              <p className="mt-2">Comprehensive cybersecurity and compliance solutions tailored for Finland and the EU region.</p>
-            </div>
-            <div className="flex gap-6">
-              <div>
-                <p className="font-medium text-slate-900">Contact</p>
-                <p className="mt-1">info@cybersecurity.fi</p>
-              </div>
-              <div>
-                <p className="font-medium text-slate-900">Phone</p>
-                <p className="mt-1">+358 44 5040308</p>
-              </div>
-            </div>
-          </div>
-          <div className="text-xs text-slate-400 mt-6">© {new Date().getFullYear()} Cyber Security Finland. All rights reserved.</div>
-        </div>
-      </footer>
+     
     </main>
   );
 }

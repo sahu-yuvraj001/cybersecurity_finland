@@ -1,17 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  ShieldCheck,
-  BookOpen,
-  ArrowRight,
-  CheckCircle,
-} from "lucide-react";
+import { ShieldCheck, BookOpen, ArrowRight, CheckCircle } from "lucide-react";
+import Link from "next/link";
 
-export default function gsdr() {
+export default function Gdpr() {
   return (
     <main className="min-h-screen bg-linear-to-b from-white to-slate-100 text-slate-800">
-
       {/* HERO */}
       <section className="max-w-6xl mx-auto px-6 pt-28 pb-20 text-center">
         <motion.h1
@@ -19,21 +14,25 @@ export default function gsdr() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-6xl font-bold leading-tight text-slate-900"
         >
-          GDPR & Privacy <span className="text-indigo-600">Excellence</span> Services
+          GDPR & Privacy <span className="text-indigo-600">Excellence</span>{" "}
+          Services
         </motion.h1>
 
         <p className="mt-6 text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
-          End-to-end GDPR compliance with privacy-by-design, automation, and 
+          End-to-end GDPR compliance with privacy-by-design, automation, and
           continuous governance for sustainable data protection.
         </p>
 
         <div className="flex justify-center gap-4 mt-10">
-          <button className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-lg transition">
+          <Link href="/contact" className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-lg transition">
             Start Privacy Assessment
-          </button>
-          <button className="px-6 py-3 border border-slate-300 rounded-xl font-semibold hover:bg-white shadow transition">
+          </Link>
+          <Link
+            href="/resources"
+            className="px-6 py-3 border border-slate-300 rounded-xl font-semibold hover:bg-white shadow transition inline-block"
+          >
             View Privacy Resources
-          </button>
+          </Link>
         </div>
       </section>
 
@@ -60,7 +59,10 @@ export default function gsdr() {
 
               <ul className="mt-4 space-y-2">
                 {service.deliverables.map((d, idx) => (
-                  <li key={idx} className="flex items-center gap-2 text-slate-700">
+                  <li
+                    key={idx}
+                    className="flex items-center gap-2 text-slate-700"
+                  >
                     <CheckCircle className="h-4 w-4 text-indigo-600" />
                     {d}
                   </li>
@@ -71,97 +73,91 @@ export default function gsdr() {
         </div>
       </section>
       {/* GDPR PRINCIPLES SECTION */}
-<section className="max-w-7xl mx-auto px-6 py-20">
-  <h2 className="text-3xl md:text-4xl font-bold text-center">
-    GDPR Principles & Compliance Requirements
-  </h2>
-  <p className="text-slate-600 text-center max-w-2xl mx-auto mt-4">
-    Understanding the core GDPR principles and potential penalties for non-compliance.
-  </p>
+      <section className="max-w-7xl mx-auto px-6 py-20">
+        <h2 className="text-3xl md:text-4xl font-bold text-center">
+          GDPR Principles & Compliance Requirements
+        </h2>
+        <p className="text-slate-600 text-center max-w-2xl mx-auto mt-4">
+          Understanding the core GDPR principles and potential penalties for
+          non-compliance.
+        </p>
 
-  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+          {/* CARD 1 */}
+          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+            <h3 className="text-xl font-semibold text-slate-900">
+              Lawfulness, Fairness & Transparency
+            </h3>
+            <p className="mt-2 text-slate-600 text-sm">
+              Clear legal basis and transparent processing
+            </p>
+            <p className="mt-4 text-sm font-semibold text-red-600">
+              Max Penalty: Up to €20M or 4% annual turnover
+            </p>
+          </div>
 
-    {/* CARD 1 */}
-    <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
-      <h3 className="text-xl font-semibold text-slate-900">
-        Lawfulness, Fairness & Transparency
-      </h3>
-      <p className="mt-2 text-slate-600 text-sm">
-        Clear legal basis and transparent processing
-      </p>
-      <p className="mt-4 text-sm font-semibold text-red-600">
-        Max Penalty: Up to €20M or 4% annual turnover
-      </p>
-    </div>
+          {/* CARD 2 */}
+          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+            <h3 className="text-xl font-semibold text-slate-900">
+              Purpose Limitation
+            </h3>
+            <p className="mt-2 text-slate-600 text-sm">
+              Specified, explicit and legitimate purposes
+            </p>
+            <p className="mt-4 text-sm font-semibold text-red-600">
+              Max Penalty: Up to €20M or 4% annual turnover
+            </p>
+          </div>
 
-    {/* CARD 2 */}
-    <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
-      <h3 className="text-xl font-semibold text-slate-900">
-        Purpose Limitation
-      </h3>
-      <p className="mt-2 text-slate-600 text-sm">
-        Specified, explicit and legitimate purposes
-      </p>
-      <p className="mt-4 text-sm font-semibold text-red-600">
-        Max Penalty: Up to €20M or 4% annual turnover
-      </p>
-    </div>
+          {/* CARD 3 */}
+          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+            <h3 className="text-xl font-semibold text-slate-900">
+              Data Minimisation
+            </h3>
+            <p className="mt-2 text-slate-600 text-sm">
+              Adequate, relevant and limited processing
+            </p>
+            <p className="mt-4 text-sm font-semibold text-red-600">
+              Max Penalty: Up to €20M or 4% annual turnover
+            </p>
+          </div>
 
-    {/* CARD 3 */}
-    <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
-      <h3 className="text-xl font-semibold text-slate-900">
-        Data Minimisation
-      </h3>
-      <p className="mt-2 text-slate-600 text-sm">
-        Adequate, relevant and limited processing
-      </p>
-      <p className="mt-4 text-sm font-semibold text-red-600">
-        Max Penalty: Up to €20M or 4% annual turnover
-      </p>
-    </div>
+          {/* CARD 4 */}
+          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+            <h3 className="text-xl font-semibold text-slate-900">Accuracy</h3>
+            <p className="mt-2 text-slate-600 text-sm">
+              Accurate and up-to-date personal data
+            </p>
+            <p className="mt-4 text-sm font-semibold text-red-600">
+              Max Penalty: Up to €20M or 4% annual turnover
+            </p>
+          </div>
 
-    {/* CARD 4 */}
-    <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
-      <h3 className="text-xl font-semibold text-slate-900">
-        Accuracy
-      </h3>
-      <p className="mt-2 text-slate-600 text-sm">
-        Accurate and up-to-date personal data
-      </p>
-      <p className="mt-4 text-sm font-semibold text-red-600">
-        Max Penalty: Up to €20M or 4% annual turnover
-      </p>
-    </div>
+          {/* CARD 5 */}
+          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+            <h3 className="text-xl font-semibold text-slate-900">
+              Storage Limitation
+            </h3>
+            <p className="mt-2 text-slate-600 text-sm">
+              Limited retention periods
+            </p>
+            <p className="mt-4 text-sm font-semibold text-red-600">
+              Max Penalty: Up to €20M or 4% annual turnover
+            </p>
+          </div>
 
-    {/* CARD 5 */}
-    <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
-      <h3 className="text-xl font-semibold text-slate-900">
-        Storage Limitation
-      </h3>
-      <p className="mt-2 text-slate-600 text-sm">
-        Limited retention periods
-      </p>
-      <p className="mt-4 text-sm font-semibold text-red-600">
-        Max Penalty: Up to €20M or 4% annual turnover
-      </p>
-    </div>
-
-    {/* CARD 6 */}
-    <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
-      <h3 className="text-xl font-semibold text-slate-900">
-        Security
-      </h3>
-      <p className="mt-2 text-slate-600 text-sm">
-        Appropriate technical and organisational measures
-      </p>
-      <p className="mt-4 text-sm font-semibold text-red-600">
-        Max Penalty: Up to €10M or 2% annual turnover
-      </p>
-    </div>
-
-  </div>
-</section>
-
+          {/* CARD 6 */}
+          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+            <h3 className="text-xl font-semibold text-slate-900">Security</h3>
+            <p className="mt-2 text-slate-600 text-sm">
+              Appropriate technical and organisational measures
+            </p>
+            <p className="mt-4 text-sm font-semibold text-red-600">
+              Max Penalty: Up to €10M or 2% annual turnover
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* COMPETITIVE ADVANTAGE */}
       <section className="bg-white py-20">
@@ -188,18 +184,21 @@ export default function gsdr() {
       {/* CTA */}
       <section className="py-20 text-center px-6">
         <h2 className="text-3xl md:text-4xl font-bold">
-          Ready to Achieve <span className="text-indigo-600">Privacy Excellence?</span>
+          Ready to Achieve{" "}
+          <span className="text-indigo-600">Privacy Excellence?</span>
         </h2>
         <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
-          Transform GDPR compliance from regulatory burden into competitive advantage with 
-          expert guidance and premium services.
+          Transform GDPR compliance from regulatory burden into competitive
+          advantage with expert guidance and premium services.
         </p>
 
-        <button className="px-8 py-4 mt-10 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-xl transition">
+        <Link
+          href="/contact"
+          className="px-8 py-4 mt-10 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-xl transition inline-block"
+        >
           Start Privacy Assessment
-        </button>
+        </Link>
       </section>
-
     </main>
   );
 }
