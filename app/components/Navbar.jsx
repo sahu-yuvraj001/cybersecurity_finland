@@ -24,8 +24,6 @@ export default function NavbarClient() {
       ],
     },
 
-    { name: "Programs", href: "/programs" },
-
     {
       name: "Industries",
       submenu: [
