@@ -39,7 +39,7 @@ export default function NavbarClient() {
     {
       name: "Resources",
       submenu: [
-        { label: "All Resources", href: "/all" },
+        { label: "All Resources", href: "/resources/all" },
         { label: "Webinars", href: "/resources/webinars" },
         { label: "Blog & Articles", href: "/resources/blog" },
         { label: "Frameworks", href: "/resources/frameworks" },
@@ -49,7 +49,6 @@ export default function NavbarClient() {
       ],
     },
 
-    { name: "Webinars", href: "/webinars" },
     {
   name: "About",
   submenu: [

@@ -24,7 +24,7 @@ export default function Hero() {
               hidden: {},
               show: { transition: { staggerChildren: 0.12 } },
             }}
-            className="lg:col-span-6"
+            className="lg:col-span-5"
           >
             {/* Label */}
             <motion.span
@@ -80,26 +80,7 @@ export default function Hero() {
                 Get Free Compliance Assessment
               </a>
 
-              <a
-                href="#"
-                className="rounded-md border border-slate-300 px-5 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50"
-              >
-                Explore Services
-              </a>
-
-              <a
-                href="#"
-                className="rounded-md bg-white/50 backdrop-blur-sm border border-slate-200 px-5 py-3 text-sm font-medium text-slate-700 hover:bg-slate-100"
-              >
-                Watch Demo
-              </a>
-
-              <a
-                href="#"
-                className="rounded-md text-sm font-medium px-5 py-3 text-indigo-700 hover:underline"
-              >
-                Download Program Overview PDF
-              </a>
+              
             </motion.div>
           </motion.div>
 
@@ -109,7 +90,7 @@ export default function Hero() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.9, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="lg:col-span-6"
+            className="lg:col-span-7"
           >
             <div className="relative rounded-2xl shadow-xl border border-slate-200 overflow-hidden bg-white/70 backdrop-blur-sm">
               <Image
