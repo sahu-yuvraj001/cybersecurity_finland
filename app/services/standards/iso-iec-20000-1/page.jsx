@@ -80,7 +80,10 @@ export default function ISO20000() {
             ].map((box, index) => (
               <div
                 key={index}
-                className="p-6 bg-purple-50 rounded-xl border border-purple-100 shadow-sm"
+                className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
               >
                 <h3 className="text-xl font-semibold text-purple-700 mb-3">
                   {box.title}
@@ -125,7 +128,9 @@ export default function ISO20000() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="px-4 py-3 bg-white rounded-lg border border-gray-200 shadow-sm text-gray-700 text-center font-medium"
+                className="px-4 py-3  text-gray-700 text-center font-medium bg-white border border-slate-200 rounded-2xl shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
               >
                 {item}
               </div>
@@ -147,7 +152,10 @@ export default function ISO20000() {
               { title: "Customer Confidence" },
               { title: "International Recognition" }
             ].map((benefit, i) => (
-              <div key={i} className="p-4">
+              <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-4 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
                 <FaCheckCircle className="w-10 h-10  text-blue-500 rounded-full mx-auto"/>
                 
                 <p className="mt-4 text-gray-700 font-semibold">{benefit.title}</p>
@@ -217,7 +225,10 @@ export default function ISO20000() {
               "Risk Management",
               "Compliance & Governance"
             ].map((item, i) => (
-              <div key={i} className="p-6 bg-gray-50 rounded-xl border border-gray-200">
+              <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
                 <h3 className="font-semibold text-gray-900 mb-2">{item}</h3>
                 <p className="text-gray-600 text-sm">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

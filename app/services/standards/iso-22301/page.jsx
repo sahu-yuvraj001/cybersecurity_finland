@@ -40,7 +40,10 @@ export default function ISO22301Page() {
               { title: "Regulatory Compliance", desc: "Meet regulatory requirements for business continuity and operational resilience across industries." },
               { title: "Organizational Learning", desc: "Continuous improvement culture with lessons learned from exercises and real incidents." },
             ].map((item, idx) => (
-              <div key={idx} className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-left">
+              <div key={idx} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-left">
                 <h3 className="text-xl font-semibold text-gray-900">{item.title}</h3>
                 <p className="text-gray-600 mt-2">{item.desc}</p>
               </div>
@@ -64,7 +67,10 @@ export default function ISO22301Page() {
               { num: "3", title: "Strategy Development", desc: "Develop business continuity strategies and recovery solutions for critical processes." },
               { num: "4", title: "Plan Implementation", desc: "Implement business continuity plans with testing, training, and continuous improvement." },
             ].map((item, idx) => (
-              <div key={idx} className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
+              <div key={idx} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
                 <div className="text-4xl font-bold text-green-500 mb-4">{item.num}</div>
                 <h3 className="text-xl font-semibold text-gray-900">{item.title}</h3>
                 <p className="text-gray-600 mt-2">{item.desc}</p>
@@ -102,7 +108,10 @@ export default function ISO22301Page() {
                 ],
               },
             ].map((service, idx) => (
-              <div key={idx} className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+              <div key={idx} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
                 <h3 className="text-xl font-semibold text-gray-900">{service.title}</h3>
                 <ul className="mt-4 space-y-2 text-gray-600">
                   {service.points.map((p, i) => (
@@ -128,7 +137,10 @@ export default function ISO22301Page() {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 mt-12">
             {["Financial Services", "Healthcare", "Manufacturing", "Energy & Utilities", "Government", "Technology"].map((item, idx) => (
-              <div key={idx} className="bg-gray-50 p-6 rounded-xl border border-gray-100 text-gray-900 font-medium">
+              <div key={idx} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer font-medium">
                 {item}
               </div>
             ))}

@@ -42,7 +42,7 @@ export default function WhyChooseUs() {
           transition={{ duration: 0.4 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold text-gray-900">
+          <h2 className="font-playfair text-4xl font-bold text-gray-900">
             Why Choose Our GDPR Services?
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
@@ -62,9 +62,10 @@ export default function WhyChooseUs() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="bg-gray-50 rounded-2xl p-8 border shadow-sm 
-                           hover:shadow-xl hover:bg-indigo-50 hover:-translate-y-1 
-                           transition-all duration-300 ease-out"
+               className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-2 cursor-pointer flex flex-col"
               >
                 {/* Icon */}
                 <div className="h-12 w-12 flex items-center justify-center bg-indigo-100 text-indigo-600 rounded-xl mb-5">
@@ -72,7 +73,7 @@ export default function WhyChooseUs() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
+                <h3 className="font-playfair text-lg font-semibold mb-2">{item.title}</h3>
 
                 {/* Description */}
                 <p className="text-gray-600 text-sm">{item.description}</p>

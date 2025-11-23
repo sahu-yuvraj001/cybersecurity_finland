@@ -34,7 +34,10 @@ export default function ISO27701Page() {
 
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {why.map((item, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 shadow border border-slate-200">
+              <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
                 <div className="text-purple-600 text-3xl mb-3">{item.icon}</div>
                 <h3 className="font-semibold text-lg">{item.title}</h3>
                 <p className="text-slate-600 text-sm mt-2">{item.text}</p>
@@ -54,7 +57,10 @@ export default function ISO27701Page() {
 
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {process.map((step, i) => (
-              <div key={i} className="p-6 bg-slate-50 rounded-xl shadow-sm border border-slate-200">
+              <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer flex flex-col">
                 <div className="w-10 h-10 mx-auto flex items-center justify-center rounded-full bg-purple-100 text-purple-600 font-bold text-lg">
                   {step.number}
                 </div>
@@ -73,7 +79,10 @@ export default function ISO27701Page() {
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {services.map((srv, i) => (
-              <div key={i} className="bg-white p-6 rounded-xl shadow border border-slate-200">
+              <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer flex flex-col">
                 <h3 className="font-semibold text-lg">{srv.title}</h3>
                 <ul className="mt-4 space-y-2 text-slate-700 text-sm">
                   {srv.points.map((p, idx) => (

@@ -200,7 +200,10 @@ export default function ISO27001Landing() {
               'Business Continuity Management',
               'Compliance'
             ].map((control, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-sm text-center hover:shadow-md transition">
+              <div key={index} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-center">
                 <p className="text-gray-800 font-medium">{control}</p>
               </div>
             ))}
@@ -281,8 +284,10 @@ export default function ISO27001Landing() {
                   'Internal audit program and reports',
                   'Certification audit preparation and support'
                 ].map((item, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <Check className="w-6 h-6 text-teal-600 flex-shrink-0 mt-0.5" />
+                  <li key={index} className="flex items-start gap-3 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer ">
+                    <Check className="w-6 h-6 text-teal-600 shrink-0 mt-0.5" />
                     <span className="text-gray-700 text-lg">{item}</span>
                   </li>
                 ))}

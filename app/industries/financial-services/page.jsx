@@ -50,7 +50,10 @@ export default function FinancialServices() {
               desc: "Managing cybersecurity risks from vendors and partners",
             },
           ].map((item) => (
-            <div key={item.title} className="p-6 bg-white border rounded-2xl shadow-sm space-y-2">
+            <div key={item.title} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer space-y-2">
               <h3 className="text-xl font-semibold text-slate-900">{item.title}</h3>
               <p className="text-slate-600">{item.desc}</p>
             </div>
@@ -80,7 +83,10 @@ export default function FinancialServices() {
               desc: "Comprehensive risk management system for financial services",
             },
           ].map((item) => (
-            <div key={item.title} className="p-6 bg-white border rounded-2xl shadow-sm space-y-2">
+            <div key={item.title} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer space-y-2">
               <h3 className="text-xl font-semibold text-slate-900">{item.title}</h3>
               <p className="text-slate-600">{item.desc}</p>
             </div>

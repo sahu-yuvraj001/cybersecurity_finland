@@ -75,7 +75,10 @@ export default function CisoAsAService() {
             ].map((card, i) => (
               <div
                 key={i}
-                className="bg-white border border-gray-200 shadow-sm p-6 rounded-2xl text-left"
+                className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-left"
               >
                 <h3 className="text-xl font-semibold">{card.title}</h3>
                 <p className="mt-3 text-gray-600 leading-relaxed">

@@ -39,7 +39,7 @@ export default function FAQSection() {
       <div className="max-w-7xl mx-auto px-6">
         
         <div className="text-center mb-14">
-          <h2 className="text-4xl font-bold text-gray-900">Frequently Asked Questions</h2>
+          <h2 className="font-playfair text-4xl font-bold text-gray-900">Frequently Asked Questions</h2>
           <p className="text-gray-600 mt-4">
             Clear answers to the most common GDPR queries we receive.
           </p>
@@ -55,7 +55,7 @@ export default function FAQSection() {
                 onClick={() => toggle(index)}
                 className="w-full flex items-center justify-between text-left"
               >
-                <span className="text-lg font-semibold text-gray-900">
+                <span className="font-playfair text-lg font-semibold text-gray-900">
                   {item.q}
                 </span>
 

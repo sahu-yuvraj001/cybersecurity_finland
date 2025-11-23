@@ -33,10 +33,9 @@ export default function RiskAssessmentPage() {
           <div
             key={item.title}
             className="
-              p-6 bg-white border border-slate-200 rounded-xl 
-              transition-all duration-300 
-              hover:shadow-xl hover:-translate-y-1 hover:border-indigo-300
-            "
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
           >
             <h3 className="text-xl font-semibold text-slate-900 mb-2">
               {item.title}

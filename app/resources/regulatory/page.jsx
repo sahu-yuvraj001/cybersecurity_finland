@@ -115,7 +115,10 @@ export default function RegulatoryCenter() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition"
+                className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-medium px-2 py-1 rounded-full bg-indigo-100 text-indigo-600">
@@ -199,7 +202,10 @@ export default function RegulatoryCenter() {
             ].map((service, s) => (
               <div
                 key={s}
-                className="p-6 bg-white border border-slate-200 rounded-2xl shadow-sm"
+                className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
               >
                 <h3 className="text-xl font-semibold text-slate-900">
                   {service.title}

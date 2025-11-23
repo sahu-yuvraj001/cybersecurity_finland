@@ -14,7 +14,6 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20 md:py-28">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:items-center">
-
           {/* LEFT CONTENT */}
           <motion.div
             initial="hidden"
@@ -43,16 +42,16 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 10 },
                 show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
               }}
-              className="mt-6 text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight text-slate-900"
-            >
-              Accelerating{" "}
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-600 to-sky-500">
-                ISO 27001, NIS2 & GDPR
+              className="font-playfair mt-6 text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight text-slate-900"
+          >
+              Advancing Europe's{" "}
+              <span className="font-playfair text-transparent bg-clip-text bg-linear-to-r from-indigo-600 to-sky-500">
+                Cyber Resilience
               </span>{" "}
-              Compliance for Modern Teams
+              Through Research and Innovation
             </motion.h1>
 
-            {/* SUBTEXT */}
+            {/* SUBHEADLINE */}
             <motion.p
               variants={{
                 hidden: { opacity: 0, y: 10 },
@@ -60,9 +59,9 @@ export default function Hero() {
               }}
               className="mt-4 text-lg text-slate-600 max-w-2xl"
             >
-              We help organizations achieve audit-ready compliance up to{" "}
-              <strong>70% faster</strong> through guided programs, automation
-              tools, expert support, and industry-leading security experience.
+              Leading cybersecurity research institution and trusted enterprise
+              security partner | <strong>ISO 27001</strong> | Horizon Europe |
+              ENISA Certified
             </motion.p>
 
             {/* CTAs */}
@@ -75,12 +74,10 @@ export default function Hero() {
             >
               <a
                 href="#"
-                className="rounded-md bg-indigo-600 px-5 py-3 text-sm font-semibold text-white shadow hover:bg-indigo-700"
+                className="rounded-md bg-[#003057] px-5 py-3 text-sm font-semibold text-white shadow hover:bg-indigo-700"
               >
                 Get Free Compliance Assessment
               </a>
-
-              
             </motion.div>
           </motion.div>
 

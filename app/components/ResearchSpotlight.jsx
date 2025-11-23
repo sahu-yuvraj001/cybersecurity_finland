@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function ResearchSpotlight() {
   const subProjects = [
@@ -21,7 +22,7 @@ export default function ResearchSpotlight() {
           transition={{ duration: 0.4 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-gray-900">
+          <h2 className="font-playfair text-4xl font-bold text-gray-900">
             Research & Innovation Spotlight
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
@@ -46,12 +47,12 @@ export default function ResearchSpotlight() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <button className="flex items-center gap-2 bg-white text-gray-900 px-6 py-3 rounded-xl font-medium hover:bg-gray-200 transition">
+            <Link href="/contact" className="flex items-center gap-2 bg-white text-gray-900 px-6 py-3 rounded-xl font-medium hover:bg-gray-200 transition">
               Learn More <ArrowRight size={18} />
-            </button>
-            <button className="flex items-center gap-2 bg-transparent border border-white px-6 py-3 rounded-xl font-medium hover:bg-white hover:text-gray-900 transition">
+            </Link>
+            <Link href="/contact"  className="flex items-center gap-2 bg-transparent border border-white px-6 py-3 rounded-xl font-medium hover:bg-white hover:text-gray-900 transition">
               View Publications <ArrowRight size={18} />
-            </button>
+            </Link>
           </div>
         </motion.div>
 
@@ -63,9 +64,12 @@ export default function ResearchSpotlight() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
-              className="p-8 rounded-2xl bg-gray-50 border shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all"
+              className="
+              bg-white border border-slate-200 rounded-2xl p-8 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
             >
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">
+              <h4 className="font-playfair text-xl font-semibold text-gray-900 mb-3">
                 {title}
               </h4>
 
@@ -73,9 +77,9 @@ export default function ResearchSpotlight() {
                 Cutting-edge research advancing cybersecurity capabilities for the European digital ecosystem.
               </p>
 
-              <button className="flex items-center gap-2 text-indigo-600 font-medium hover:underline">
+              <Link href="/contact" className="flex items-center gap-2 text-indigo-600 font-medium hover:underline">
                 Learn More <ArrowRight size={16} />
-              </button>
+              </Link>
             </motion.div>
           ))}
         </div>

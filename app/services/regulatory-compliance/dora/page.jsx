@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   title: "DORA Compliance | Cybersecurity.fi",
   description:
@@ -64,17 +66,29 @@ export default function DoraCompliancePage() {
     },
     {
       title: "Investment Firms",
-      example: ["Investment services", "Portfolio management", "Investment advice"],
+      example: [
+        "Investment services",
+        "Portfolio management",
+        "Investment advice",
+      ],
       link: "Full DORA compliance required",
     },
     {
       title: "Insurance & Reinsurance",
-      example: ["Insurance companies", "Reinsurance undertakings", "Insurance intermediaries"],
+      example: [
+        "Insurance companies",
+        "Reinsurance undertakings",
+        "Insurance intermediaries",
+      ],
       link: "Operational resilience focus",
     },
     {
       title: "Critical ICT Third-Party Providers",
-      example: ["Cloud service providers", "Software providers", "Data analytics services"],
+      example: [
+        "Cloud service providers",
+        "Software providers",
+        "Data analytics services",
+      ],
       link: "Enhanced oversight regime",
     },
   ];
@@ -102,41 +116,62 @@ export default function DoraCompliancePage() {
 
   return (
     <main className="px-6 py-16 max-w-7xl mx-auto">
-      {/* Hero */}
-      <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-        DORA Digital Operational Resilience Services
-      </h1>
+      <section className="max-w-7xl mx-auto px-6 lg:px-10 py-16 lg:py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* LEFT SIDE CONTENT */}
+          <div>
+            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+              DORA Digital Operational Resilience Services
+            </h1>
 
-      <p className="text-lg text-slate-600 max-w-3xl mb-8">
-        Comprehensive EU financial services cybersecurity compliance for operational resilience excellence.
-      </p>
+            <p className="text-lg text-slate-600 max-w-3xl mb-8">
+              Comprehensive EU financial services cybersecurity compliance for
+              operational resilience excellence.
+            </p>
 
-      <p className="text-slate-600 max-w-3xl mb-8">
-        Expert DORA implementation for financial institutions covering ICT risk management, incident response, operational
-        resilience testing, third-party management, and information sharing to ensure business continuity and regulatory
-        compliance.
-      </p>
+            <p className="text-slate-600 max-w-3xl mb-8">
+              Expert DORA implementation for financial institutions covering ICT
+              risk management, incident response, operational resilience
+              testing, third-party management, and information sharing to ensure
+              business continuity and regulatory compliance.
+            </p>
 
-      <div className="flex gap-4 mb-20">
-        <a
-          href="/contact"
-          className="px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition"
-        >
-          Start DORA Assessment
-        </a>
+            <div className="flex flex-wrap gap-4 mb-12">
+              <a
+                href="/contact"
+                className="px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition"
+              >
+                Start DORA Assessment
+              </a>
 
-        <a
-          href="/industries/financial-services"
-          className="px-6 py-3 rounded-lg border border-slate-300 text-slate-700 hover:bg-slate-100 transition"
-        >
-          View Financial Services
-        </a>
-      </div>
+              <a
+                href="/industries/financial-services"
+                className="px-6 py-3 rounded-lg border border-slate-300 text-slate-700 hover:bg-slate-100 transition"
+              >
+                View Financial Services
+              </a>
+            </div>
+          </div>
+
+          {/* RIGHT SIDE IMAGE */}
+          <div className="relative w-full max-w-xl h-[350px] lg:h-[420px]">
+            <Image
+              src="/dora.png"
+              alt="DORA Compliance"
+              fill
+              className="rounded-xl shadow-lg object-cover"
+            />
+          </div>
+        </div>
+      </section>
 
       {/* Service Areas */}
-      <h2 className="text-3xl font-bold text-center mb-4">DORA Compliance Service Areas</h2>
+      <h2 className="text-3xl font-bold text-center mb-4">
+        DORA Compliance Service Areas
+      </h2>
       <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
-        Comprehensive support across all five DORA pillars to ensure your institution achieves digital operational resilience.
+        Comprehensive support across all five DORA pillars to ensure your
+        institution achieves digital operational resilience.
       </p>
 
       <div className="grid md:grid-cols-2 gap-8 mb-20">
@@ -156,7 +191,9 @@ export default function DoraCompliancePage() {
               ))}
             </div>
 
-            <h3 className="text-xl font-semibold text-slate-900 mb-2">{area.title}</h3>
+            <h3 className="text-xl font-semibold text-slate-900 mb-2">
+              {area.title}
+            </h3>
             <p className="text-slate-600 mb-4">{area.desc}</p>
 
             <ul className="space-y-1 text-slate-600">
@@ -172,19 +209,25 @@ export default function DoraCompliancePage() {
       </div>
 
       {/* Applicable Entities */}
-      <h2 className="text-3xl font-bold text-center mb-4">DORA Applicable Entities</h2>
+      <h2 className="text-3xl font-bold text-center mb-4">
+        DORA Applicable Entities
+      </h2>
 
       <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
-        Understand which organizations are subject to DORA requirements and compliance obligations.
+        Understand which organizations are subject to DORA requirements and
+        compliance obligations.
       </p>
 
       <div className="grid md:grid-cols-4 gap-6 mb-20">
         {applicableEntities.map((e) => (
           <div
             key={e.title}
-            className="p-6 border border-slate-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
+           className="p-6 border border-slate-200 rounded-xl bg-white shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+
           >
-            <h3 className="font-semibold text-lg text-slate-900 mb-2">{e.title}</h3>
+            <h3 className="font-semibold text-lg text-slate-900 mb-2">
+              {e.title}
+            </h3>
 
             <ul className="text-slate-600 text-sm mb-3">
               {e.example.map((x) => (
@@ -192,7 +235,10 @@ export default function DoraCompliancePage() {
               ))}
             </ul>
 
-            <a href="#" className="text-indigo-600 text-sm font-medium hover:underline">
+            <a
+              href="#"
+              className="text-indigo-600 text-sm font-medium hover:underline"
+            >
               {e.link}
             </a>
           </div>
@@ -200,10 +246,13 @@ export default function DoraCompliancePage() {
       </div>
 
       {/* Timeline */}
-      <h2 className="text-3xl font-bold text-center mb-4">DORA Implementation Timeline</h2>
+      <h2 className="text-3xl font-bold text-center mb-4">
+        DORA Implementation Timeline
+      </h2>
 
       <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
-        Key milestones and deadlines for DORA compliance preparation and implementation.
+        Key milestones and deadlines for DORA compliance preparation and
+        implementation.
       </p>
 
       <div className="space-y-6 mb-20">
@@ -214,7 +263,11 @@ export default function DoraCompliancePage() {
           >
             <div
               className={`w-10 h-10 rounded-full flex items-center justify-center text-white font-bold ${
-                t.id === 1 ? "bg-green-500" : t.id === 2 ? "bg-blue-500" : "bg-red-500"
+                t.id === 1
+                  ? "bg-green-500"
+                  : t.id === 2
+                  ? "bg-blue-500"
+                  : "bg-red-500"
               }`}
             >
               {t.id}
@@ -232,9 +285,12 @@ export default function DoraCompliancePage() {
 
       {/* CTA */}
       <div className="text-center py-20">
-        <h2 className="text-3xl font-bold text-slate-900 mb-4">Ready for DORA Compliance?</h2>
+        <h2 className="text-3xl font-bold text-slate-900 mb-4">
+          Ready for DORA Compliance?
+        </h2>
         <p className="text-slate-600 max-w-xl mx-auto mb-6">
-          Ensure your financial institution meets the January 17, 2025 deadline with comprehensive digital operational resilience capabilities.
+          Ensure your financial institution meets the January 17, 2025 deadline
+          with comprehensive digital operational resilience capabilities.
         </p>
 
         <a

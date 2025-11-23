@@ -2,11 +2,22 @@
 
 import { motion } from "framer-motion";
 import { Mail, Facebook, Twitter, Linkedin, Github } from "lucide-react";
-
+import Link from "next/link";
+const navItems = [
+  { name: "Home", href: "/" },
+  { name: "Services", href: "/services" },
+  { name: "About", href: "/about" },
+  { name: "Contact", href: "/contact" },
+];
+const services = [
+  { name: "ISO 27001 Compliance", href: "/services/regulatory-compliance" },
+  { name: "GDPR Readiness", href: "/services/regulatory-compliance/gdpr" },
+  { name: "NIS2 Consulting", href: "/services/regulatory-compliance/nis2-compliance" },
+  { name: "Governance & Policy", href: "/services/governance/policy-governance" },
+];
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 text-slate-300 pt-10 pb-12 relative overflow-hidden">
-
+    <footer className="bg-[#003057] text-slate-300 pt-10 pb-12 relative overflow-hidden">
       {/* Decorative Gradient Top Line */}
       <motion.div
         initial={{ opacity: 0, width: 0 }}
@@ -16,7 +27,6 @@ export default function Footer() {
       />
 
       <div className="max-w-7xl mx-auto px-6">
-
         {/* Newsletter Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -28,7 +38,8 @@ export default function Footer() {
             Stay Updated
           </h2>
           <p className="text-slate-400 mb-6 text-sm max-w-xl mx-auto">
-            Get the latest updates on cybersecurity, compliance, GDPR, and ISO standards directly in your inbox.
+            Get the latest updates on cybersecurity, compliance, GDPR, and ISO
+            standards directly in your inbox.
           </p>
 
           <div className="flex items-center justify-center">
@@ -57,7 +68,6 @@ export default function Footer() {
           }}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12"
         >
-
           {/* ABOUT */}
           <motion.div
             variants={{
@@ -65,7 +75,11 @@ export default function Footer() {
               show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
             }}
           >
-            <h2 className="text-xl font-semibold text-white">Cybersecurity.fi</h2>
+            <Link href="/">
+              <h2 className="text-xl font-semibold text-white cursor-pointer">
+                Cybersecurity.fi
+              </h2>
+            </Link>
             <p className="mt-4 text-sm leading-relaxed text-slate-400">
               Leading cybersecurity & compliance services helping businesses
               achieve ISO 27001, GDPR, and NIS2 readiness with expert support.
@@ -94,15 +108,19 @@ export default function Footer() {
               show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
             }}
           >
-            <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">
+              Quick Links
+            </h3>
             <ul className="space-y-3 text-sm">
-              {["Home", "Services", "About", "Contact"].map((item) => (
+              {navItems.map((item) => (
                 <motion.li
-                  key={item}
+                  key={item.name}
                   whileHover={{ x: 4 }}
                   transition={{ duration: 0.2 }}
                 >
-                  <a className="hover:text-white" href="#">{item}</a>
+                  <Link href={item.href} className="hover:text-white">
+                    {item.name}
+                  </Link>
                 </motion.li>
               ))}
             </ul>
@@ -116,22 +134,19 @@ export default function Footer() {
             }}
           >
             <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
-            <ul className="space-y-3 text-sm">
-              {[
-                "ISO 27001 Compliance",
-                "GDPR Readiness",
-                "NIS2 Consulting",
-                "Governance & Policy",
-              ].map((service) => (
-                <motion.li
-                  key={service}
-                  whileHover={{ x: 4 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <a className="hover:text-white" href="#">{service}</a>
-                </motion.li>
-              ))}
-            </ul>
+           <ul className="space-y-3 text-sm">
+  {services.map((service) => (
+    <motion.li
+      key={service.name}
+      whileHover={{ x: 4 }}
+      transition={{ duration: 0.2 }}
+    >
+      <Link href={service.href} className="hover:text-white">
+        {service.name}
+      </Link>
+    </motion.li>
+  ))}
+</ul>
           </motion.div>
 
           {/* Contact */}
@@ -147,7 +162,9 @@ export default function Footer() {
               <li>📞 +358 123 456 789</li>
               <li>📧 info@cyberguardify.com</li>
               <motion.li whileHover={{ x: 4 }}>
-                <a className="hover:text-white" href="#">Support Center ↗</a>
+                <Link className="hover:text-white" href="/"> 
+                  Support Center ↗
+                </Link>
               </motion.li>
             </ul>
           </motion.div>

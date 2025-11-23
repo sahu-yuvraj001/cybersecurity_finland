@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { IoChevronDown, IoChevronUp } from "react-icons/io5";
+import Image from "next/image";
 
 export default function NavbarClient() {
   const [open, setOpen] = useState(false);
@@ -62,16 +63,19 @@ export default function NavbarClient() {
     { name: "Contact", href: "/contact" },
   ];
 
-  const navLink =
-    "relative text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors \
-     after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 \
-     after:bg-indigo-600 after:transition-all after:duration-300 hover:after:w-full";
+  
 
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-lg shadow-sm border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between">
         <Link href="/" className="text-xl font-semibold text-slate-900">
-          Cybersecurity.fi
+         
+          <Image
+          src="/navlogo.svg"
+          height={50}
+          width={50}
+          alt="navlogo"
+          />
         </Link>
 
         {/* 🔥 Desktop Navigation */}
@@ -79,9 +83,13 @@ export default function NavbarClient() {
           {navItems.map((item) => (
             <div key={item.name} className="relative group">
               {item.submenu ? (
-                <button className={navLink}>{item.name}</button>
+                <button className="relative font-roboto text-base font-medium text-slate-700 hover:text-slate-900 transition-colors
+             after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0
+             after:bg-indigo-600 after:transition-all after:duration-300 hover:after:w-full">{item.name}</button>
               ) : (
-                <Link href={item.href} className={navLink}>
+                <Link href={item.href} className="relative font-roboto text-base font-medium text-slate-700 hover:text-slate-900 transition-colors
+             after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0
+             after:bg-indigo-600 after:transition-all after:duration-300 hover:after:w-full">
                   {item.name}
                 </Link>
               )}
@@ -104,7 +112,7 @@ export default function NavbarClient() {
 
           <Link
             href="/assessment"
-            className="ml-4 rounded-md bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white shadow hover:bg-indigo-700 transition"
+            className="ml-4 rounded-md bg-[#003057] px-5 py-2.5 text-sm font-semibold text-white shadow hover:bg-indigo-700 transition"
           >
             Get Free Assessment
           </Link>
@@ -144,7 +152,12 @@ export default function NavbarClient() {
           >
             <div className="flex justify-between items-center mb-6">
               <Link href="/" className="text-xl font-semibold text-slate-900">
-                Cybersecurity.fi
+                <Image
+          src="/navlogo.svg"
+          height={400}
+          width={400}
+          alt="navlogo"
+          />
               </Link>
 
               <button
@@ -222,7 +235,7 @@ export default function NavbarClient() {
               <Link
                 href="/assessment"
                 onClick={() => setOpen(false)}
-                className="mt-4 rounded-md bg-indigo-600 px-5 py-3 text-base font-semibold text-white text-center shadow hover:bg-indigo-700"
+                className="mt-4 rounded-md bg-[#003057] px-5 py-3 text-base font-semibold text-white text-center shadow hover:bg-indigo-700"
               >
                 Get Free Assessment
               </Link>

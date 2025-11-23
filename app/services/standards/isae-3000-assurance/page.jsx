@@ -100,7 +100,9 @@ export default function ISAE3000Landing() {
           ].map((s) => (
             <article
               key={s.title}
-              className="rounded-xl bg-gradient-to-b from-white to-slate-50 p-6 shadow-sm hover:shadow-md transition-shadow"
+              className=" from-white to-slate-50  rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
             >
               <div className="h-10 w-10 rounded-lg bg-emerald-50 flex items-center justify-center text-emerald-600 font-bold">
                 {/* decorative */}
@@ -110,7 +112,7 @@ export default function ISAE3000Landing() {
               <p className="mt-2 text-sm text-slate-600">{s.bullets[0]}…</p>
               <ul className="mt-4 space-y-2 text-sm text-slate-600">
                 {s.bullets.map((b) => (
-                  <li key={b} className="flex items-start gap-3">
+                  <li key={b} className="flex items-start gap-3 ">
                     <span className="mt-1 text-emerald-500">●</span>
                     <span>{b}</span>
                   </li>
@@ -136,7 +138,10 @@ export default function ISAE3000Landing() {
               "Expert guidance throughout",
               "Ongoing compliance support",
             ].map((t) => (
-              <div key={t} className="rounded-lg bg-white p-4 shadow-sm text-sm text-slate-700">
+              <div key={t} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer ">
                 {t}
               </div>
             ))}

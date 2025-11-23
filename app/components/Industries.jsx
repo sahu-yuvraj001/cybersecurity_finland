@@ -35,7 +35,7 @@ export default function Industries() {
           transition={{ duration: 0.5 }}
           className="text-center mb-14"
         >
-          <h2 className="text-4xl font-bold text-gray-900">
+          <h2 className="font-playfair text-4xl font-bold text-gray-900">
             Industries We Secure
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
@@ -54,7 +54,10 @@ export default function Industries() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="bg-white border hover:shadow-lg transition rounded-2xl p-6 text-center"
+                className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-center"
               >
                 <div className="flex justify-center mb-4">
                   <Icon className="text-indigo-600" size={32} />

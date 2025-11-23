@@ -39,7 +39,7 @@ export default function CaseStudy() {
             <li>✔ Delivered in under 90 days</li>
           </ul>
 
-          <button className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 transition rounded-lg font-medium">
+          <button className="px-6 py-3 bg-[#003057] hover:bg-indigo-500 transition rounded-lg font-medium">
             Read Full Case Study →
           </button>
         </motion.div>

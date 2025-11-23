@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -5,27 +6,52 @@ export default function EIDASPage() {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Hero Section */}
-      <section className="w-full py-20 px-6 text-center bg-linear-to-b from-blue-50 to-gray-100">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
-          eIDAS Digital Trust <br /> & Identity Services
-        </h1>
-        <p className="max-w-2xl mx-auto text-lg text-gray-600 mb-8">
-          Modern, secure, and fully compliant digital trust infrastructure built
-          with qualified electronic signatures, seals, timestamps, and identity
-          services.
-        </p>
-        <div className="flex justify-center gap-4">
-          <Link
-            href="/contact"
-            className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition shadow-md inline-block"
-          >
-            Start Digital Trust Assessment
-          </Link>
-          <Link href="/about" className="px-6 py-3 border border-gray-400 rounded-xl hover:bg-white shadow-sm transition">
-            Learn About eIDAS
-          </Link>
-        </div>
-      </section>
+      <section className="w-full py-20 px-6 bg-linear-to-b from-blue-50 to-gray-100">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+    {/* LEFT SIDE CONTENT */}
+    <div>
+      <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
+        eIDAS Digital Trust <br /> & Identity Services
+      </h1>
+
+      <p className="max-w-2xl text-lg text-gray-600 mb-8">
+        Modern, secure, and fully compliant digital trust infrastructure built with
+        qualified electronic signatures, seals, timestamps, and identity services.
+      </p>
+
+      <div className="flex flex-wrap gap-4">
+        <Link
+          href="/contact"
+          className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition shadow-md inline-block"
+        >
+          Start Digital Trust Assessment
+        </Link>
+
+        <Link
+          href="/about"
+          className="px-6 py-3 border border-gray-400 rounded-xl hover:bg-white shadow-sm transition inline-block"
+        >
+          Learn About eIDAS
+        </Link>
+      </div>
+    </div>
+
+    {/* RIGHT SIDE IMAGE */}
+    <div className="flex justify-center lg:justify-end">
+      <div className="relative w-full max-w-xl h-[350px] lg:h-[430px]">
+        <Image
+          src="/eidas.jpg"   // change to your actual path
+          alt="eIDAS Digital Trust"
+          fill
+          className="rounded-xl shadow-lg object-cover"
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
       {/* Services Grid */}
       <section className="py-20 px-6 max-w-7xl mx-auto">
@@ -93,7 +119,11 @@ export default function EIDASPage() {
           ].map((card, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-2xl shadow-sm border hover:shadow-lg transition"
+              className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer flex flex-col
+            "
             >
               <h3 className="text-xl font-semibold mb-4">{card.title}</h3>
               <ul className="space-y-2 text-gray-600">
@@ -117,7 +147,11 @@ export default function EIDASPage() {
           {["Low Level", "Substantial Level", "High Level"].map((lvl, i) => (
             <div
               key={i}
-              className="p-8 rounded-2xl border shadow-sm hover:shadow-md transition bg-gray-50"
+              className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer flex flex-col
+            "
             >
               <h3 className="text-2xl font-semibold mb-4">{lvl}</h3>
               <p className="text-gray-600 mb-4">
@@ -151,7 +185,10 @@ export default function EIDASPage() {
           ].map((benefit, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl bg-white shadow-sm border hover:shadow-md transition"
+              className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer flex flex-col"
             >
               <h3 className="font-semibold text-xl mb-2">{benefit}</h3>
               <p className="text-gray-600 text-sm">

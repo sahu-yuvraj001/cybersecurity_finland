@@ -141,7 +141,7 @@ function ProcessBlock({ number, title, items }) {
       <h3 className="mt-3 text-xl font-semibold text-slate-900">{title}</h3>
       <ul className="mt-3 space-y-1 text-slate-600">
         {items.map((i, idx) => (
-          <li key={idx}>• {i}</li>
+          <li key={idx} >• {i}</li>
         ))}
       </ul>
     </div>

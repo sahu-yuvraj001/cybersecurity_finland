@@ -55,7 +55,7 @@ export default function Stats() {
           transition={{ duration: 0.6 }}
           className="text-center mb-14"
         >
-          <h2 className="text-4xl font-bold text-gray-900">By The Numbers</h2>
+          <h2 className="font-playfair text-4xl font-bold text-gray-900">By The Numbers</h2>
           <p className="text-gray-600 mt-4">
             Our proven track record shows the trust clients place in us.
           </p>
@@ -70,7 +70,7 @@ export default function Stats() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
             >
-              <p className="text-4xl font-bold text-indigo-600">
+              <p className="text-4xl font-bold text-[#003057]">
                 <Counter end={stat.value} suffix={stat.suffix} />
               </p>
               <p className="text-gray-600 mt-2">{stat.label}</p>

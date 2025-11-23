@@ -1,6 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
-import { ShieldCheck, Lock, FileCheck, Eye, Database, Globe } from "lucide-react";
+import {
+  ShieldCheck,
+  Lock,
+  FileCheck,
+  Eye,
+  Database,
+  Globe,
+} from "lucide-react";
 
 const services = [
   {
@@ -49,7 +56,7 @@ export default function ServicesSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
-          className="text-4xl font-bold text-gray-900 mb-4"
+          className="font-playfair text-4xl font-bold text-gray-900 mb-4"
         >
           Comprehensive Privacy Services
         </motion.h2>
@@ -74,12 +81,17 @@ export default function ServicesSection() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="bg-white shadow-sm p-8 rounded-2xl border hover:shadow-md transition"
+                className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-2 cursor-pointer flex flex-col"
               >
                 <div className="h-12 w-12 flex items-center justify-center bg-indigo-100 text-indigo-600 rounded-xl mb-5 mx-auto">
                   <Icon size={26} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
+                <h3 className="font-playfair text-xl font-semibold mb-3">
+                  {service.title}
+                </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   {service.description}
                 </p>

@@ -64,25 +64,37 @@ export default function AboutCSF() {
 
           <div className="grid md:grid-cols-4 gap-6">
             
-            <div className="p-6 bg-white shadow rounded-2xl border">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <Building className="h-10 w-10 mb-3 text-blue-700" />
               <h3 className="text-xl font-semibold">2021</h3>
               <p className="text-slate-600">Founded in Helsinki, Uusimaa</p>
             </div>
 
-            <div className="p-6 bg-white shadow rounded-2xl border">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <Users className="h-10 w-10 mb-3 text-blue-700" />
               <h3 className="text-xl font-semibold">11–50</h3>
               <p className="text-slate-600">Cybersecurity Specialists</p>
             </div>
 
-            <div className="p-6 bg-white shadow rounded-2xl border">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <Globe className="h-10 w-10 mb-3 text-blue-700" />
               <h3 className="text-xl font-semibold">Finland</h3>
               <p className="text-slate-600">Headquartered in Helsinki</p>
             </div>
 
-            <div className="p-6 bg-white shadow rounded-2xl border">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <ShieldCheck className="h-10 w-10 mb-3 text-blue-700" />
               <h3 className="text-xl font-semibold">Global</h3>
               <p className="text-slate-600">Worldwide Protective Services</p>
@@ -105,7 +117,10 @@ export default function AboutCSF() {
               ["Penetration Testing", "Advanced penetration testing and vulnerability assessments."],
               ["Vulnerability Management", "Continuous monitoring and remediation strategies."],
             ].map(([title, desc], index) => (
-              <div key={index} className="p-6 bg-white shadow rounded-2xl border">
+              <div key={index} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
                 <h3 className="text-xl font-semibold mb-2">{title}</h3>
                 <p className="text-slate-600 text-sm">{desc}</p>
               </div>

@@ -100,7 +100,7 @@ export default function TestimonialsCarouselFloating() {
       aria-label="Client testimonials carousel"
     >
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-4xl font-bold mb-3">What Our Clients Say</h2>
+        <h2 className="font-playfair text-4xl font-bold mb-3">What Our Clients Say</h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-10">
           Real feedback from enterprise clients, research partners and teams we
           helped to comply with GDPR.
@@ -152,7 +152,7 @@ export default function TestimonialsCarouselFloating() {
                     dragConstraints={{ left: 0, right: 0 }}
                     onDragEnd={handleDragEnd}
                     whileTap={{ cursor: "grabbing" }}
-                    className="bg-white rounded-2xl shadow-lg p-10 border"
+                    className="bg-white rounded-2xl shadow-lg p-10  border border-slate-200"
                   >
                     <p className="text-lg text-gray-800 italic">
                       “{testimonials[current].review}”

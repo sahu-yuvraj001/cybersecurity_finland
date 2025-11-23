@@ -92,7 +92,10 @@ export default function ISOCloudSecurityPage() {
 
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-4 gap-6 max-w-5xl mx-auto">
             {processSteps.map((s) => (
-              <div key={s.title} className="p-6 bg-white rounded-xl border border-slate-100 text-left">
+              <div key={s.title} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-left">
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-indigo-50 text-indigo-700 flex items-center justify-center font-semibold">{s.num}</div>
                   <h4 className="font-semibold">{s.title}</h4>
@@ -111,7 +114,10 @@ export default function ISOCloudSecurityPage() {
 
           <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
             {cloudServices.map((svc) => (
-              <div key={svc.title} className="bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+              <div key={svc.title} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer ">
                 <h3 className="font-semibold">{svc.title}</h3>
                 <ul className="mt-4 space-y-2 text-sm text-slate-700">
                   {svc.items.map((it, i) => (
@@ -133,7 +139,8 @@ export default function ISOCloudSecurityPage() {
           <div className="mt-8 flex flex-wrap justify-center gap-8 items-center">
             {platforms.map((p) => (
               <div key={p.name} className="flex flex-col items-center gap-3">
-                <div className="w-16 h-16 rounded-lg bg-white border border-slate-100 shadow-sm flex items-center justify-center">{p.logo}</div>
+                <div className="w-16 h-16 rounded-lg bg-white border border-slate-100 shadow-sm flex items-center justify-center hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer hover:bg-slate-900 hover:text-white">{p.logo}</div>
                 <div className="text-sm font-medium text-slate-700">{p.name}</div>
               </div>
             ))}

@@ -29,22 +29,34 @@ export default function PolicyGovernance() {
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 mt-8">
-          <div className="p-6 border rounded-2xl shadow-sm">
+          <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
             <h3 className="text-xl font-semibold mb-2">Policy Architecture</h3>
             <p className="text-slate-600">Hierarchical policy structure from standards to procedures</p>
           </div>
 
-          <div className="p-6 border rounded-2xl shadow-sm">
+          <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
             <h3 className="text-xl font-semibold mb-2">Ownership Model</h3>
             <p className="text-slate-600">Clear roles and responsibilities in policy management</p>
           </div>
 
-          <div className="p-6 border rounded-2xl shadow-sm">
+          <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
             <h3 className="text-xl font-semibold mb-2">Lifecycle Management</h3>
             <p className="text-slate-600">Policy creation, update and retirement processes</p>
           </div>
 
-          <div className="p-6 border rounded-2xl shadow-sm">
+          <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
             <h3 className="text-xl font-semibold mb-2">Compliance Mapping</h3>
             <p className="text-slate-600">Policy mapping to regulations and standards</p>
           </div>
@@ -58,7 +70,10 @@ export default function PolicyGovernance() {
 
           <div className="grid md:grid-cols-3 gap-10">
             {/* Organizational Policies */}
-            <div className="p-6 border rounded-2xl shadow-sm bg-white">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h3 className="text-xl font-semibold mb-3">Organizational Policies</h3>
               <p className="text-slate-600 mb-3">High-level strategic policies and principles</p>
               <ul className="text-slate-700 space-y-2">
@@ -69,7 +84,10 @@ export default function PolicyGovernance() {
             </div>
 
             {/* Operational Policies */}
-            <div className="p-6 border rounded-2xl shadow-sm bg-white">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h3 className="text-xl font-semibold mb-3">Operational Policies</h3>
               <p className="text-slate-600 mb-3">Policies guiding practical operations</p>
               <ul className="text-slate-700 space-y-2">
@@ -80,7 +98,10 @@ export default function PolicyGovernance() {
             </div>
 
             {/* Technical Policies */}
-            <div className="p-6 border rounded-2xl shadow-sm bg-white">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h3 className="text-xl font-semibold mb-3">Technical Policies</h3>
               <p className="text-slate-600 mb-3">Policies defining technical requirements for IT systems</p>
               <ul className="text-slate-700 space-y-2">
@@ -136,7 +157,10 @@ export default function PolicyGovernance() {
               ],
             },
           ].map((step, idx) => (
-            <div key={idx} className="p-6 border rounded-2xl shadow-sm">
+            <div key={idx} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <div className="text-4xl font-bold mb-4">{idx + 1}</div>
               <h3 className="text-xl font-semibold mb-3">{step.title}</h3>
               <ul className="space-y-2 text-slate-700">
@@ -164,7 +188,10 @@ export default function PolicyGovernance() {
               { title: "SOC 2", desc: "Meeting Trust Services Criteria requirements" },
               { title: "NIS2/DORA", desc: "Meeting EU regulation requirements" },
             ].map((c, i) => (
-              <div key={i} className="p-6 border rounded-2xl bg-white shadow-sm">
+              <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
                 <h3 className="text-xl font-semibold mb-2">{c.title}</h3>
                 <p className="text-slate-600">{c.desc}</p>
               </div>
@@ -185,7 +212,10 @@ export default function PolicyGovernance() {
             "Approval Process",
             "Maintenance Model",
           ].map((step, i) => (
-            <div key={i} className="p-6 border rounded-2xl shadow-sm">
+            <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <div className="text-4xl font-bold mb-4">{i + 1}</div>
               <p className="text-slate-700">{step}</p>
             </div>

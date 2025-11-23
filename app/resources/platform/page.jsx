@@ -37,7 +37,10 @@ export default function Platform() {
           ].map((item, i) => (
             <div
               key={i}
-              className="border rounded-2xl p-6 shadow-sm bg-white hover:shadow-md transition"
+              className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
             >
               <h3 className="text-lg font-semibold">{item}</h3>
             </div>
@@ -80,7 +83,10 @@ export default function Platform() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="rounded-xl border bg-white p-5 shadow-sm hover:shadow-md transition text-center"
+                className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
               >
                 <p className="font-medium text-slate-800">{item}</p>
               </div>

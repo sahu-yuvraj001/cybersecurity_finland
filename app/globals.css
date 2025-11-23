@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+.font-geist-sans {
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+.font-geist-mono {
+  font-family: var(--font-geist-mono), monospace;
+}
+.font-roboto {
+  font-family: var(--font-roboto), sans-serif;
+}

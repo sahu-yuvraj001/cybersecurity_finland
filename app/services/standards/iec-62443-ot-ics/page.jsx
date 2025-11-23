@@ -103,7 +103,10 @@ export default function IEC62443Landing() {
           ].map((s) => (
             <div
               key={s.title}
-              className="rounded-xl bg-white p-6 border border-slate-100 shadow-sm hover:shadow-md"
+              className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
             >
               <h3 className="text-lg font-semibold text-slate-900">
                 {s.title}
@@ -137,7 +140,10 @@ export default function IEC62443Landing() {
           ].map((i) => (
             <div
               key={i}
-              className="rounded-xl bg-gradient-to-br from-orange-50 to-white p-5 text-center border border-orange-100 shadow-sm"
+             className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-center"
             >
               <span className="text-slate-900 font-medium">{i}</span>
             </div>

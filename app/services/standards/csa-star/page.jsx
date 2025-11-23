@@ -51,7 +51,7 @@ export default function CsaStarCertification() {
           </div>
 
           {/* Level 3 */}
-          <div className="bg-purple-50 border border-purple-200 p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+          <div className="bg-blue-50 border border-purple-200 p-8 rounded-2xl shadow-md hover:shadow-xl transition">
             <div className="text-3xl font-bold text-purple-600 mb-4">3</div>
             <h3 className="text-xl font-semibold mb-4">CSA STAR Level 3</h3>
             <p className="mb-4">Continuous Monitoring</p>
@@ -81,7 +81,10 @@ export default function CsaStarCertification() {
             { title: "Compliance Alignment", desc: "Align with regulatory requirements and industry standards through comprehensive security frameworks." },
             { title: "Cloud-Native Focus", desc: "Purpose-built for cloud environments with controls specifically designed for cloud security challenges." }
           ].map((item, idx) => (
-            <div key={idx} className="bg-white p-8 rounded-2xl shadow border hover:shadow-lg transition">
+            <div key={idx} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
               <p className="text-gray-700">{item.desc}</p>
             </div>
@@ -98,7 +101,10 @@ export default function CsaStarCertification() {
 
         <div className="grid md:grid-cols-4 gap-8 text-center">
           {["Current State Assessment", "Level Strategy Planning", "Controls Implementation", "Certification & Maintenance"].map((label, index) => (
-            <div key={index} className="p-6 bg-white border rounded-2xl shadow hover:shadow-lg transition">
+            <div key={index} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <div className="text-3xl mb-4 font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">{index + 1}</div>
               <p className="font-semibold">{label}</p>
             </div>
@@ -112,7 +118,10 @@ export default function CsaStarCertification() {
 
         <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto mt-12">
           {/* Left */}
-          <div className="bg-white p-8 rounded-2xl border shadow hover:shadow-lg transition">
+          <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
             <h3 className="text-xl font-semibold mb-4">Assessment & Certification Support</h3>
             <ul className="space-y-2 text-gray-700">
               <li>✔ CCM controls gap analysis</li>
@@ -124,7 +133,10 @@ export default function CsaStarCertification() {
           </div>
 
           {/* Right */}
-          <div className="bg-white p-8 rounded-2xl border shadow hover:shadow-lg transition">
+          <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
             <h3 className="text-xl font-semibold mb-4">Ongoing Maintenance & Improvement</h3>
             <ul className="space-y-2 text-gray-700">
               <li>✔ Annual recertification support</li>
@@ -144,7 +156,10 @@ export default function CsaStarCertification() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
           {["ISO 27001", "SOC 2", "NIST Framework", "GDPR Compliance"].map((fw, idx) => (
-            <div key={idx} className="bg-white p-6 rounded-2xl border shadow hover:shadow-lg transition font-semibold">{fw}</div>
+            <div key={idx} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer font-semibold">{fw}</div>
           ))}
         </div>
       </section>

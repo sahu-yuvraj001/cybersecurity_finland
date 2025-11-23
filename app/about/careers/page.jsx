@@ -173,7 +173,10 @@ export default function CareersPage() {
           <p className="text-center mt-2 text-slate-600">We take care of our team members</p>
 
           <div className="mt-8 grid md:grid-cols-3 gap-6">
-            <div className="p-6 bg-white border rounded-2xl shadow-sm">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h4 className="font-semibold flex items-center gap-3"><Award className="w-5 h-5 text-indigo-600"/> Health & Wellness</h4>
               <ul className="mt-3 text-sm text-slate-600 space-y-1">
                 <li>Comprehensive health insurance</li>
@@ -183,7 +186,10 @@ export default function CareersPage() {
               </ul>
             </div>
 
-            <div className="p-6 bg-white border rounded-2xl shadow-sm">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h4 className="font-semibold flex items-center gap-3"><BookOpen className="w-5 h-5 text-indigo-600"/> Learning & Development</h4>
               <ul className="mt-3 text-sm text-slate-600 space-y-1">
                 <li>Certification support (CISSP, CISM, OSCP, etc.)</li>
@@ -192,7 +198,10 @@ export default function CareersPage() {
               </ul>
             </div>
 
-            <div className="p-6 bg-white border rounded-2xl shadow-sm">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h4 className="font-semibold flex items-center gap-3"><Heart className="w-5 h-5 text-indigo-600"/> Work-Life Balance</h4>
               <ul className="mt-3 text-sm text-slate-600 space-y-1">
                 <li>25+ vacation days</li>
@@ -203,7 +212,10 @@ export default function CareersPage() {
           </div>
 
           <div className="mt-6 grid md:grid-cols-2 gap-6">
-            <div className="p-6 bg-white border rounded-2xl shadow-sm">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h4 className="font-semibold flex items-center gap-3"><Briefcase className="w-5 h-5 text-indigo-600"/> Financial Benefits</h4>
               <ul className="mt-3 text-sm text-slate-600 space-y-1">
                 <li>Competitive salary</li>
@@ -212,7 +224,10 @@ export default function CareersPage() {
               </ul>
             </div>
 
-            <div className="p-6 bg-white border rounded-2xl shadow-sm">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h4 className="font-semibold flex items-center gap-3"><Clock className="w-5 h-5 text-indigo-600"/> Flexible Time</h4>
               <ul className="mt-3 text-sm text-slate-600 space-y-1">
                 <li>Flexible hours</li>
@@ -231,7 +246,10 @@ export default function CareersPage() {
 
         <div className="mt-8 grid gap-6">
           {jobs.map((job, idx) => (
-            <article key={idx} className="p-6 border rounded-2xl bg-white shadow-sm">
+            <article key={idx} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div>
                   <h4 className="text-xl font-semibold">{job.title}</h4>
@@ -281,19 +299,31 @@ export default function CareersPage() {
           <p className="text-center mt-2 text-slate-600">Continuous learning and career development opportunities</p>
 
           <div className="mt-8 grid md:grid-cols-4 gap-6">
-            <div className="p-6 bg-white border rounded-2xl shadow-sm text-center">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-center">
               <h4 className="font-semibold">Certification Support</h4>
               <p className="text-sm text-slate-600 mt-2">Full financial support for CISSP, CISM, CISA and more</p>
             </div>
-            <div className="p-6 bg-white border rounded-2xl shadow-sm text-center">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-center">
               <h4 className="font-semibold">Conference Attendance</h4>
               <p className="text-sm text-slate-600 mt-2">Black Hat, RSA and local events</p>
             </div>
-            <div className="p-6 bg-white border rounded-2xl shadow-sm text-center">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-center">
               <h4 className="font-semibold">Internal Training</h4>
               <p className="text-sm text-slate-600 mt-2">Regular knowledge sharing & technical deep-dives</p>
             </div>
-            <div className="p-6 bg-white border rounded-2xl shadow-sm text-center">
+            <div  className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-center">
               <h4 className="font-semibold">Career Pathing</h4>
               <p className="text-sm text-slate-600 mt-2">Clear progression, reviews & goal setting</p>
             </div>

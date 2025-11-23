@@ -35,7 +35,10 @@ export default function AntiFraudPage() {
           },{
             title: "Identity Fraud", desc: "Identity misuse and impersonation", extra: "Reputation and legal risks"
           }].map((item, i) => (
-            <div key={i} className="p-6 bg-white rounded-2xl shadow border border-slate-200">
+            <div key={i}className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h3 className="font-semibold text-lg text-slate-900">{item.title}</h3>
               <p className="mt-2 text-slate-600">{item.desc}</p>
               <p className="mt-3 text-sm font-medium text-indigo-600">{item.extra}</p>
@@ -60,7 +63,10 @@ export default function AntiFraudPage() {
             title: "Human Controls",
             items: ["Awareness training", "Phishing simulations", "Reporting channels", "Role definition"]
           }].map((layer, i) => (
-            <div key={i} className="p-6 bg-white rounded-2xl shadow border border-slate-200">
+            <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h3 className="font-semibold text-lg text-slate-900">{layer.title}</h3>
               <ul className="mt-4 space-y-2 text-slate-600">
                 {layer.items.map((item, j) => <li key={j}>{item}</li>)}
@@ -86,7 +92,10 @@ export default function AntiFraudPage() {
             title: "Forensic Analysis",
             items: ["Digital forensics", "Data mining", "Network analysis", "Timeline reconstruction"]
           }].map((method, i) => (
-            <div key={i} className="p-6 bg-white rounded-2xl shadow border border-slate-200">
+            <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h3 className="font-semibold text-lg text-slate-900">{method.title}</h3>
               <ul className="mt-4 space-y-2 text-slate-600">
                 {method.items.map((item, j) => <li key={j}>{item}</li>)}
@@ -103,7 +112,10 @@ export default function AntiFraudPage() {
 
         <div className="grid gap-6 mt-10 md:grid-cols-4">
           {["Detection", "Containment", "Investigation", "Recovery"].map((phase, i) => (
-            <div key={i} className="p-6 bg-white rounded-2xl shadow border border-slate-200">
+            <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h3 className="font-semibold text-lg text-slate-900">{phase}</h3>
             </div>
           ))}
@@ -125,7 +137,10 @@ export default function AntiFraudPage() {
           },{
             title: "Staff Awareness", value: "95% trained"
           }].map((metric, i) => (
-            <div key={i} className="p-6 bg-white rounded-2xl shadow border border-slate-200 text-center">
+            <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h3 className="font-semibold text-lg text-slate-900">{metric.title}</h3>
               <p className="mt-2 text-indigo-600 font-semibold text-xl">{metric.value}</p>
             </div>

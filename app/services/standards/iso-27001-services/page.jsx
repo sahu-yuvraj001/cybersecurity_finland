@@ -93,7 +93,9 @@ export default function ISO27001LandingPage() {
           <h3 className="text-xl font-bold text-center">Why Choose Our ISO 27001 Services?</h3>
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {why.map((w) => (
-              <div key={w} className="bg-white p-4 rounded-lg shadow-sm text-center border border-slate-100">{w}</div>
+              <div key={w} className="bg-white  text-center  border border-slate-200 rounded-2xl p-4 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">{w}</div>
             ))}
           </div>
         </div>

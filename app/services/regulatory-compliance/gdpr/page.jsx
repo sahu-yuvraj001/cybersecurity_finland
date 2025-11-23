@@ -2,39 +2,63 @@
 
 import { motion } from "framer-motion";
 import { ShieldCheck, BookOpen, ArrowRight, CheckCircle } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Gdpr() {
   return (
     <main className="min-h-screen bg-linear-to-b from-white to-slate-100 text-slate-800">
       {/* HERO */}
-      <section className="max-w-6xl mx-auto px-6 pt-28 pb-20 text-center">
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-6xl font-bold leading-tight text-slate-900"
+     <section className="max-w-7xl mx-auto px-6 lg:px-10 pt-28 pb-20">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+    {/* LEFT SIDE CONTENT */}
+    <div>
+      <motion.h1
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="text-4xl md:text-6xl font-bold leading-tight text-slate-900"
+      >
+        GDPR & Privacy <span className="text-indigo-600">Excellence</span> Services
+      </motion.h1>
+
+      <p className="mt-6 text-lg md:text-xl text-slate-600 max-w-3xl">
+        End-to-end GDPR compliance with privacy-by-design, automation, and
+        continuous governance for sustainable data protection.
+      </p>
+
+      <div className="flex flex-wrap gap-4 mt-10">
+        <Link
+          href="/contact"
+          className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-lg transition"
         >
-          GDPR & Privacy <span className="text-indigo-600">Excellence</span>{" "}
-          Services
-        </motion.h1>
+          Start Privacy Assessment
+        </Link>
 
-        <p className="mt-6 text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
-          End-to-end GDPR compliance with privacy-by-design, automation, and
-          continuous governance for sustainable data protection.
-        </p>
+        <Link
+          href="/resources"
+          className="px-6 py-3 border border-slate-300 rounded-xl font-semibold hover:bg-white shadow transition inline-block"
+        >
+          View Privacy Resources
+        </Link>
+      </div>
+    </div>
 
-        <div className="flex justify-center gap-4 mt-10">
-          <Link href="/contact" className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 shadow-lg transition">
-            Start Privacy Assessment
-          </Link>
-          <Link
-            href="/resources"
-            className="px-6 py-3 border border-slate-300 rounded-xl font-semibold hover:bg-white shadow transition inline-block"
-          >
-            View Privacy Resources
-          </Link>
-        </div>
-      </section>
+    {/* RIGHT SIDE IMAGE */}
+    <div className="flex justify-center lg:justify-end">
+      <div className="relative w-full max-w-xl h-[350px] lg:h-[430px]">
+        <Image
+          src="/gdpr.jpg"  // Change this to your actual image
+          alt="GDPR Compliance"
+          fill
+          className="rounded-xl shadow-lg object-cover"
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
       {/* SERVICES SECTION */}
       <section className="max-w-7xl mx-auto px-6 py-16">
@@ -84,7 +108,7 @@ export default function Gdpr() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
           {/* CARD 1 */}
-          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-slate-300">
             <h3 className="text-xl font-semibold text-slate-900">
               Lawfulness, Fairness & Transparency
             </h3>
@@ -97,7 +121,7 @@ export default function Gdpr() {
           </div>
 
           {/* CARD 2 */}
-          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+          <div className="transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-slate-300 bg-white shadow-md p-6 rounded-2xl border border-slate-200">
             <h3 className="text-xl font-semibold text-slate-900">
               Purpose Limitation
             </h3>
@@ -110,7 +134,7 @@ export default function Gdpr() {
           </div>
 
           {/* CARD 3 */}
-          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+          <div className="transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-slate-300 bg-white shadow-md p-6 rounded-2xl border border-slate-200">
             <h3 className="text-xl font-semibold text-slate-900">
               Data Minimisation
             </h3>
@@ -123,7 +147,7 @@ export default function Gdpr() {
           </div>
 
           {/* CARD 4 */}
-          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+          <div className="transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-slate-300 bg-white shadow-md p-6 rounded-2xl border border-slate-200">
             <h3 className="text-xl font-semibold text-slate-900">Accuracy</h3>
             <p className="mt-2 text-slate-600 text-sm">
               Accurate and up-to-date personal data
@@ -134,7 +158,7 @@ export default function Gdpr() {
           </div>
 
           {/* CARD 5 */}
-          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+          <div className="transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-slate-300 bg-white shadow-md p-6 rounded-2xl border border-slate-200">
             <h3 className="text-xl font-semibold text-slate-900">
               Storage Limitation
             </h3>
@@ -147,7 +171,7 @@ export default function Gdpr() {
           </div>
 
           {/* CARD 6 */}
-          <div className="bg-white shadow-md p-6 rounded-2xl border border-slate-200">
+          <div className="transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-slate-300 bg-white shadow-md p-6 rounded-2xl border border-slate-200">
             <h3 className="text-xl font-semibold text-slate-900">Security</h3>
             <p className="mt-2 text-slate-600 text-sm">
               Appropriate technical and organisational measures
@@ -170,7 +194,7 @@ export default function Gdpr() {
             {advantages.map((adv, i) => (
               <div
                 key={i}
-                className="bg-white shadow-md p-8 rounded-2xl border border-slate-200"
+                className="bg-white shadow-md p-8 rounded-2xl border border-slate-200 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-slate-300"
               >
                 <adv.icon className="w-10 h-10 text-indigo-600 mx-auto" />
                 <h3 className="text-xl font-semibold mt-4 mb-2">{adv.title}</h3>

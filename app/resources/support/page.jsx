@@ -36,7 +36,10 @@ export default function SupportTools() {
             { stat: "500+", label: "Free tools" },
             { stat: "24/7", label: "Email support" },
           ].map((item, i) => (
-            <div key={i}>
+            <div key={i} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <h3 className="text-3xl font-bold text-indigo-600">{item.stat}</h3>
               <p className="text-slate-600 mt-1">{item.label}</p>
             </div>
@@ -101,7 +104,10 @@ export default function SupportTools() {
             ].map((box, index) => (
               <div
                 key={index}
-                className="p-6 bg-white border border-slate-200 rounded-2xl shadow-sm hover:shadow-md transition"
+                className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
               >
                 <h3 className="text-xl font-semibold text-slate-900">{box.title}</h3>
 
@@ -166,7 +172,10 @@ export default function SupportTools() {
             ].map((channel, idx) => (
               <div
                 key={idx}
-                className="p-6 bg-white border border-slate-200 rounded-2xl shadow-sm hover:shadow-md transition"
+               className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer"
               >
                 <h3 className="text-xl font-semibold text-slate-900">{channel.title}</h3>
                 <p className="mt-2 text-slate-600 text-sm">{channel.desc}</p>

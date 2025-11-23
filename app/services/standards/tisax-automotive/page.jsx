@@ -77,7 +77,8 @@ export default function TisaxLanding() {
           ].map((s) => (
             <article
               key={s.title}
-              className="rounded-xl bg-gradient-to-b from-white to-slate-50 p-6 shadow-sm hover:shadow-md transition-shadow"
+              className="rounded-xl  from-white to-slate-50 p-6 shadow-sm hover:shadow-md  transition-all duration-300
+              hover:-translate-y-1 cursor-pointer "
             >
               <div className="h-10 w-10 rounded-lg bg-emerald-50 flex items-center justify-center text-emerald-600 font-bold">
                 ✓
@@ -117,7 +118,8 @@ export default function TisaxLanding() {
             ].map((t) => (
               <div
                 key={t}
-                className="rounded-lg bg-white p-4 shadow-sm text-sm text-slate-700"
+                className="rounded-lg bg-white p-4 shadow-sm text-sm text-slate-700 transition-all duration-300
+              hover:-translate-y-1 cursor-pointer "
               >
                 {t}
               </div>

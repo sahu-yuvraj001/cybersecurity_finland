@@ -91,7 +91,10 @@ export default function CommonCriteriaPage() {
             { num: 6, label: "EAL6", desc: "Semiformally verified design and tested" },
             { num: 7, label: "EAL7", desc: "Formally verified design and tested" }
           ].map((item, idx) => (
-            <div key={idx} className="bg-white p-6 rounded-2xl border shadow hover:shadow-lg transition text-center">
+            <div key={idx} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer text-center">
               <div className="text-green-600 text-2xl font-bold mb-2">{item.num}</div>
               <h3 className="text-xl font-semibold mb-1">{item.label}</h3>
               <p className="text-gray-700 text-sm">{item.desc}</p>

@@ -76,7 +76,10 @@ export default function AntiFraudLanding() {
               'Procurement Fraud',
               'Social Engineering Attacks'
             ].map((threat, index) => (
-              <div key={index} className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center hover:border-orange-400 hover:shadow-md transition">
+              <div key={index} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
                 <p className="text-gray-900 font-semibold">{threat}</p>
               </div>
             ))}
@@ -159,7 +162,10 @@ export default function AntiFraudLanding() {
               'Real Estate',
               'Government & Public Sector'
             ].map((industry, index) => (
-              <div key={index} className="bg-white border border-gray-200 p-6 rounded-lg text-center hover:shadow-md transition">
+              <div key={index} className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
                 <p className="text-gray-800 font-semibold">{industry}</p>
               </div>
             ))}
@@ -180,8 +186,11 @@ export default function AntiFraudLanding() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
+              <div className="flex items-center gap-3 mb-4 ">
                 <Shield className="w-8 h-8 text-orange-600" />
                 <h3 className="text-xl font-bold text-gray-900">
                   BEC & Invoice Fraud Controls
@@ -193,7 +202,10 @@ export default function AntiFraudLanding() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <div className="flex items-center gap-3 mb-4">
                 <Eye className="w-8 h-8 text-orange-600" />
                 <h3 className="text-xl font-bold text-gray-900">
@@ -205,7 +217,10 @@ export default function AntiFraudLanding() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <div className="flex items-center gap-3 mb-4">
                 <AlertTriangle className="w-8 h-8 text-orange-600" />
                 <h3 className="text-xl font-bold text-gray-900">
@@ -217,7 +232,10 @@ export default function AntiFraudLanding() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <div className="flex items-center gap-3 mb-4">
                 <FileCheck className="w-8 h-8 text-orange-600" />
                 <h3 className="text-xl font-bold text-gray-900">
@@ -229,7 +247,10 @@ export default function AntiFraudLanding() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <div className="flex items-center gap-3 mb-4">
                 <Users className="w-8 h-8 text-orange-600" />
                 <h3 className="text-xl font-bold text-gray-900">
@@ -241,7 +262,10 @@ export default function AntiFraudLanding() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
               <div className="flex items-center gap-3 mb-4">
                 <TrendingUp className="w-8 h-8 text-orange-600" />
                 <h3 className="text-xl font-bold text-gray-900">
@@ -276,8 +300,11 @@ export default function AntiFraudLanding() {
                   'Vendor verification and due diligence processes',
                   'Ongoing fraud risk monitoring and reporting'
                 ].map((item, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-teal-600 flex-shrink-0 mt-1" />
+                  <li key={index} className="flex items-start gap-3
+              bg-white border border-slate-200 rounded-2xl p-6 shadow-sm 
+              hover:shadow-lg transition-all duration-300
+              hover:-translate-y-1 cursor-pointer">
+                    <Check className="w-5 h-5 text-teal-600 shrink-0 mt-1" />
                     <span className="text-gray-700">{item}</span>
                   </li>
                 ))}
