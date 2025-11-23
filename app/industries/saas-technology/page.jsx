@@ -5,7 +5,7 @@ export default function SaasTechnology() {
     <div className="px-6 lg:px-12 py-20 max-w-7xl mx-auto">
       {/* Header */}
       <div className="text-center mb-16">
-        <h1 className="text-4xl font-bold text-slate-900 mb-4">SaaS & Technology</h1>
+        <h1 className="font-playfair text-4xl font-bold text-slate-900 mb-4">SaaS & Technology</h1>
         <p className="text-lg text-slate-600 max-w-2xl mx-auto">
           Comprehensive cybersecurity and compliance services for software companies and technology organizations
         </p>

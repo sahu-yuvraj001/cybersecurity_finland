@@ -8,7 +8,7 @@ export default function AntiFraudLanding() {
       {/* Hero Section */}
       <section className="px-4 py-16 md:py-24 max-w-7xl mx-auto">
         <div className="max-w-3xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
             Anti-Fraud Services
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-4">
@@ -34,8 +34,7 @@ export default function AntiFraudLanding() {
       {/* Overview Section */}
       <section className="px-4 py-16 bg-amber-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
-            Overview
+          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">            Overview
           </h2>
           <div className="bg-white p-8 md:p-12 rounded-lg shadow-sm max-w-4xl mx-auto space-y-6">
             <p className="text-gray-700 leading-relaxed">
@@ -57,8 +56,7 @@ export default function AntiFraudLanding() {
       <section className="px-4 py-16 md:py-20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Fraud Threats We Address
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-4">              Fraud Threats We Address
             </h2>
             <p className="text-gray-600 text-lg">
               Comprehensive protection against all major fraud attack vectors
@@ -91,8 +89,7 @@ export default function AntiFraudLanding() {
       <section className="px-4 py-16 md:py-20 bg-amber-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Multi-Layer Fraud Controls
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-4">              Multi-Layer Fraud Controls
             </h2>
             <p className="text-gray-600 text-lg">
               Comprehensive defense-in-depth approach to fraud prevention
@@ -143,8 +140,7 @@ export default function AntiFraudLanding() {
       <section className="px-4 py-16 md:py-20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Industries We Protect
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-4">              Industries We Protect
             </h2>
             <p className="text-gray-600 text-lg">
               Specialized fraud protection across high-risk sectors
@@ -177,8 +173,7 @@ export default function AntiFraudLanding() {
       <section className="px-4 py-16 md:py-20 bg-amber-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Anti-Fraud Services
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-4">              Our Anti-Fraud Services
             </h2>
             <p className="text-gray-600 text-lg">
               Comprehensive fraud prevention and response services to protect your organization
@@ -286,8 +281,7 @@ export default function AntiFraudLanding() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* What You Get */}
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-                What You Get
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-8">                What You Get
               </h2>
               <ul className="space-y-3">
                 {[
@@ -313,8 +307,7 @@ export default function AntiFraudLanding() {
 
             {/* Key Benefits */}
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-                Key Benefits
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-8">                Key Benefits
               </h2>
               <ul className="space-y-3">
                 {[
@@ -338,8 +331,7 @@ export default function AntiFraudLanding() {
       {/* CTA Section */}
       <section className="px-4 py-16 md:py-24 bg-gradient-to-r from-orange-600 to-orange-500">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Protect Your Organization from Fraud
+          <h2 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">            Protect Your Organization from Fraud
           </h2>
           <p className="text-xl text-orange-100 mb-8">
             Contact us today to strengthen your fraud defenses and response capabilities

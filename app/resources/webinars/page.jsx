@@ -4,7 +4,7 @@ export default function WebinarsPage() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
         {/* MAIN TITLE */}
-        <h1 className="text-4xl font-bold text-slate-900 text-center">
+        <h1 className="font-playfair text-4xl font-bold text-slate-900 text-center">
           Expert-Led Cybersecurity Webinars
         </h1>
 
@@ -207,8 +207,7 @@ export default function WebinarsPage() {
             Browse All Resources
           </a>
 
-          <h2 className="mt-20 text-3xl font-bold text-slate-900">
-            Transform Your Cybersecurity Today.
+          <h2 className="font-playfair mt-20 text-3xl font-bold text-slate-900">            Transform Your Cybersecurity Today.
           </h2>
 
           <p className="mt-4 text-slate-600 max-w-3xl mx-auto">

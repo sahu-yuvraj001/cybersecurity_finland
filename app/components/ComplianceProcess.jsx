@@ -38,9 +38,8 @@ export default function ComplianceProcess() {
           transition={{ duration: 0.4 }}
           className="text-center mb-14"
         >
-          <h2 className="font-playfair text-4xl font-bold text-gray-900">
-            Our GDPR Compliance Process
-          </h2>
+          <h1 className="font-playfair font-playfair text-4xl font-bold text-gray-900">  Our GDPR Compliance Process
+          </h1>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             A complete end-to-end framework designed to help your organisation achieve and maintain GDPR compliance.
           </p>

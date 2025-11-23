@@ -47,8 +47,7 @@ export default function ServicesSection() {
   return (
     <section className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-5xl mx-auto text-center px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-          Complete Cybersecurity & Compliance Services
+        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900">          Complete Cybersecurity & Compliance Services
         </h2>
 
         <p className="mt-4 text-gray-600 text-lg">

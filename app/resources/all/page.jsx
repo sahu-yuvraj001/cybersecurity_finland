@@ -6,7 +6,7 @@ function AllResource() {
       <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
 
         {/* PAGE TITLE */}
-        <h1 className="text-4xl font-bold text-slate-900">
+        <h1 className="font-playfair text-4xl font-bold text-slate-900">
           All Resources
         </h1>
 
@@ -17,8 +17,7 @@ function AllResource() {
 
         {/* CARD BOX */}
         <div className="mt-10 bg-slate-50 border border-slate-200 rounded-2xl p-10 shadow-sm">
-          <h2 className="text-2xl font-semibold text-slate-800">
-            Looking for something?
+          <h2 className="font-playfair text-2xl font-semibold text-slate-800">            Looking for something?
           </h2>
 
           <p className="mt-3 text-slate-600">

@@ -8,7 +8,7 @@ export default function ISO27701Page() {
       {/* HERO */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="container mx-auto px-6 text-center max-w-4xl">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
+          <h1 className="font-playfair text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
             ISO 27701 (PIMS) <span className="text-purple-600">Implementation</span>
           </h1>
           <p className="mt-6 text-lg text-slate-600">

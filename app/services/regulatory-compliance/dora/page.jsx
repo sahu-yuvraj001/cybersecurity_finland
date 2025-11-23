@@ -120,7 +120,7 @@ export default function DoraCompliancePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* LEFT SIDE CONTENT */}
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+            <h1 className="font-playfair text-4xl md:text-5xl font-bold text-slate-900 mb-4">
               DORA Digital Operational Resilience Services
             </h1>
 
@@ -166,8 +166,7 @@ export default function DoraCompliancePage() {
       </section>
 
       {/* Service Areas */}
-      <h2 className="text-3xl font-bold text-center mb-4">
-        DORA Compliance Service Areas
+      <h2 className="font-playfair text-3xl font-bold text-center mb-4">        DORA Compliance Service Areas
       </h2>
       <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
         Comprehensive support across all five DORA pillars to ensure your
@@ -209,8 +208,7 @@ export default function DoraCompliancePage() {
       </div>
 
       {/* Applicable Entities */}
-      <h2 className="text-3xl font-bold text-center mb-4">
-        DORA Applicable Entities
+      <h2 className="font-playfair text-3xl font-bold text-center mb-4">        DORA Applicable Entities
       </h2>
 
       <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
@@ -246,8 +244,7 @@ export default function DoraCompliancePage() {
       </div>
 
       {/* Timeline */}
-      <h2 className="text-3xl font-bold text-center mb-4">
-        DORA Implementation Timeline
+      <h2 className="font-playfair text-3xl font-bold text-center mb-4">        DORA Implementation Timeline
       </h2>
 
       <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
@@ -285,8 +282,7 @@ export default function DoraCompliancePage() {
 
       {/* CTA */}
       <div className="text-center py-20">
-        <h2 className="text-3xl font-bold text-slate-900 mb-4">
-          Ready for DORA Compliance?
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 mb-4">          Ready for DORA Compliance?
         </h2>
         <p className="text-slate-600 max-w-xl mx-auto mb-6">
           Ensure your financial institution meets the January 17, 2025 deadline

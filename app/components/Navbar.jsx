@@ -17,11 +17,31 @@ export default function NavbarClient() {
     {
       name: "Services",
       submenu: [
-        {label: "Regulatory Compliance", href: "/services/regulatory-compliance"},
+        {
+          label: "Regulatory Compliance",
+          href: "/services/regulatory-compliance",
+        },
         { label: "Standards & Certifications", href: "/services/standards" },
         { label: "Risk & Assessment Services", href: "/services/risk" },
         { label: "Governance & Strategy", href: "/services/governance" },
         { label: "Managed GRC Services", href: "/services/grc-services" },
+      ],
+    },
+    {
+      name: "Packages",
+      submenu: [
+        {
+          label: "iso-27001-fast-track",
+          href: "/packages/iso-27001-fast-track",
+        },
+        { label: "NIS2-Sprint", href: "/packages/nis2-sprint" },
+        { label: "SOC2-Readiness", href: "/packages/soc2-readiness-12-weeks" },
+        {
+          label: "DORA Program in a Box",
+          href: "/packages/dora-program-in-a-box",
+        },
+        { label: "GDPR Accelerator", href: "/packages/gdpr-accelerator" },
+        { label: "CISO as a Service", href: "/packages/ciso-as-a-service" },
       ],
     },
 
@@ -31,9 +51,15 @@ export default function NavbarClient() {
         { label: "Financial Services", href: "/industries/financial-services" },
         { label: "SaaS & Technology", href: "/industries/saas-technology" },
         { label: "Healthcare", href: "/industries/healthcare-life-sciences" },
-        { label: "Critical Infrastructure",href: "/industries/critical-infrastructure-energy",},
+        {
+          label: "Critical Infrastructure",
+          href: "/industries/critical-infrastructure-energy",
+        },
         { label: "Public Sector", href: "/industries/public-sector-finland" },
-        { label: "Manufacturing", href: "/industries/manufacturing-industrial" },
+        {
+          label: "Manufacturing",
+          href: "/industries/manufacturing-industrial",
+        },
       ],
     },
 
@@ -51,31 +77,23 @@ export default function NavbarClient() {
     },
 
     {
-  name: "About",
-  submenu: [
-    { label: "Our Team", href: "/about/team" },
-    { label: "Company Story", href: "/about/story" },
-    { label: "Certifications", href: "/about/certifications" },
-    { label: "Careers", href: "/about/careers" },
-  ],
-},
+      name: "About",
+      submenu: [
+        { label: "Our Team", href: "/about/team" },
+        { label: "Company Story", href: "/about/story" },
+        { label: "Certifications", href: "/about/certifications" },
+        { label: "Careers", href: "/about/careers" },
+      ],
+    },
 
     { name: "Contact", href: "/contact" },
   ];
-
-  
 
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-lg shadow-sm border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between">
         <Link href="/" className="text-xl font-semibold text-slate-900">
-         
-          <Image
-          src="/navlogo.svg"
-          height={50}
-          width={50}
-          alt="navlogo"
-          />
+          <Image src="/navlogo.svg" height={50} width={50} alt="navlogo" />
         </Link>
 
         {/* 🔥 Desktop Navigation */}
@@ -83,13 +101,20 @@ export default function NavbarClient() {
           {navItems.map((item) => (
             <div key={item.name} className="relative group">
               {item.submenu ? (
-                <button className="relative font-roboto text-base font-medium text-slate-700 hover:text-slate-900 transition-colors
+                <button
+                  className="relative font-roboto text-base font-medium text-slate-700 hover:text-slate-900 transition-colors
              after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0
-             after:bg-indigo-600 after:transition-all after:duration-300 hover:after:w-full">{item.name}</button>
+             after:bg-indigo-600 after:transition-all after:duration-300 hover:after:w-full"
+                >
+                  {item.name}
+                </button>
               ) : (
-                <Link href={item.href} className="relative font-roboto text-base font-medium text-slate-700 hover:text-slate-900 transition-colors
+                <Link
+                  href={item.href}
+                  className="relative font-roboto text-base font-medium text-slate-700 hover:text-slate-900 transition-colors
              after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0
-             after:bg-indigo-600 after:transition-all after:duration-300 hover:after:w-full">
+             after:bg-indigo-600 after:transition-all after:duration-300 hover:after:w-full"
+                >
                   {item.name}
                 </Link>
               )}
@@ -111,7 +136,7 @@ export default function NavbarClient() {
           ))}
 
           <Link
-            href="/assessment"
+            href="/contact"
             className="ml-4 rounded-md bg-[#003057] px-5 py-2.5 text-sm font-semibold text-white shadow hover:bg-indigo-700 transition"
           >
             Get Free Assessment
@@ -153,11 +178,11 @@ export default function NavbarClient() {
             <div className="flex justify-between items-center mb-6">
               <Link href="/" className="text-xl font-semibold text-slate-900">
                 <Image
-          src="/navlogo.svg"
-          height={400}
-          width={400}
-          alt="navlogo"
-          />
+                  src="/navlogo.svg"
+                  height={50}
+                  width={50}
+                  alt="navlogo"
+                />
               </Link>
 
               <button

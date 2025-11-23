@@ -120,7 +120,7 @@ export default function NIS2CompliancePage() {
               </ol>
             </nav>
 
-            <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-4">
+            <h1 className="font-playfair text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-4">
               NIS2 Compliance Services
             </h1>
 
@@ -162,8 +162,7 @@ export default function NIS2CompliancePage() {
       {/* Service Areas */}
       <section className="bg-slate-50 py-12">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
-          <h2 className="text-2xl font-semibold text-slate-900 text-center mb-3">
-            NIS2 Compliance Service Areas
+          <h2 className="font-playfair text-2xl font-semibold text-slate-900 text-center mb-3">            NIS2 Compliance Service Areas
           </h2>
           <p className="text-center text-slate-600 max-w-3xl mx-auto mb-8">
             Comprehensive support across all NIS2 requirements to ensure your
@@ -199,8 +198,7 @@ export default function NIS2CompliancePage() {
       {/* Timeline */}
       <section className="py-12">
         <div className="max-w-4xl mx-auto px-6 lg:px-10">
-          <h2 className="text-2xl font-semibold text-slate-900 text-center mb-4">
-            NIS2 Compliance Timeline
+          <h2 className="font-playfair text-2xl font-semibold text-slate-900 text-center mb-4">            NIS2 Compliance Timeline
           </h2>
           <p className="text-center text-slate-600 mb-8">
             Key dates and milestones for NIS2 implementation and compliance
@@ -240,8 +238,7 @@ export default function NIS2CompliancePage() {
       {/* Penalties */}
       <section className="bg-slate-50 py-12">
         <div className="max-w-6xl mx-auto px-6 lg:px-10">
-          <h2 className="text-2xl font-semibold text-slate-900 text-center mb-6">
-            NIS2 Penalties & Sanctions
+          <h2 className="font-playfair text-2xl font-semibold text-slate-900 text-center mb-6">            NIS2 Penalties & Sanctions
           </h2>
           <p className="text-center text-slate-600 mb-8">
             Understanding the potential consequences of non-compliance with NIS2

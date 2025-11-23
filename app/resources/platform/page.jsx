@@ -6,7 +6,7 @@ export default function Platform() {
     <div className="min-h-screen bg-white">
       {/* Header */}
       <section className="text-center py-20 px-6 bg-gradient-to-b from-slate-50 to-white">
-        <h1 className="text-4xl font-bold text-slate-900 mb-4">
+        <h1 className="font-playfair text-4xl font-bold text-slate-900 mb-4">
           Seamless Security Processing
         </h1>
         <p className="text-lg text-slate-600 max-w-3xl mx-auto">
@@ -18,8 +18,7 @@ export default function Platform() {
 
       {/* Automated Security Assessment */}
       <section className="px-6 py-16 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-semibold text-slate-900 mb-4">
-          Automated Security Assessment
+        <h2 className="font-playfair text-3xl font-semibold text-slate-900 mb-4">          Automated Security Assessment
         </h2>
         <p className="text-slate-600 mb-8 max-w-3xl">
           Automate vulnerability assessment, threat detection, and compliance
@@ -51,8 +50,7 @@ export default function Platform() {
       {/* Smart Security Analytics */}
       <section className="px-6 py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-semibold text-slate-900 mb-4">
-            Smart Security Analytics & Risk Management
+          <h2 className="font-playfair text-3xl font-semibold text-slate-900 mb-4">            Smart Security Analytics & Risk Management
           </h2>
           <p className="text-slate-600 max-w-3xl mb-12">
             Gain deeper insights with advanced threat detection models and ML-powered analytics.
@@ -97,8 +95,7 @@ export default function Platform() {
 
       {/* CTA */}
       <section className="py-20 text-center px-6 bg-white">
-        <h2 className="text-3xl font-bold text-slate-900 mb-4">
-          Start Your Security Transformation Today
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 mb-4">          Start Your Security Transformation Today
         </h2>
         <p className="text-slate-600 max-w-3xl mx-auto mb-10">
           Join hundreds of security-focused organizations using CyberSecurity Finland

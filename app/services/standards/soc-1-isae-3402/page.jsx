@@ -50,7 +50,7 @@ export default function SOC1ISAE3402() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="w-full bg-gradient-to-b from-blue-50 to-blue-100 py-24 text-center px-6">
-  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+  <h1 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-4">
     SOC 1 / ISAE 3402
   </h1>
 
@@ -68,8 +68,7 @@ export default function SOC1ISAE3402() {
 
       {/* Services Section */}
       <section className="py-20 px-6 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">
-          Our SOC 1 / ISAE 3402 Services
+        <h2 className="font-playfair text-3xl font-bold text-center mb-4 text-gray-900">          Our SOC 1 / ISAE 3402 Services
         </h2>
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
           Comprehensive support for every stage of your SOC 1 / ISAE 3402 attestation journey
@@ -100,8 +99,7 @@ export default function SOC1ISAE3402() {
 
       {/* Why Choose Us */}
       <section className="py-20 px-6 bg-gray-50">
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-4">
-          Why Choose Our SOC 1 / ISAE 3402 Services?
+        <h2 className="font-playfair text-3xl font-bold text-center text-gray-900 mb-4">          Why Choose Our SOC 1 / ISAE 3402 Services?
         </h2>
         <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto mt-10">
           {benefits.map((item, index) => (
@@ -120,8 +118,7 @@ export default function SOC1ISAE3402() {
 
       {/* CTA Section */}
       <section className="w-full bg-linear-to-r from-blue-600 to-blue-700 text-white py-20 text-center px-6">
-        <h2 className="text-3xl font-bold mb-4">
-          Ready for SOC 1 / ISAE 3402 Attestation?
+        <h2 className="font-playfair text-3xl font-bold mb-4">          Ready for SOC 1 / ISAE 3402 Attestation?
         </h2>
         <p className="max-w-2xl mx-auto mb-8">
           Get expert guidance and accelerate your compliance timeline

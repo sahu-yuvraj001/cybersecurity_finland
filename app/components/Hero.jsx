@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -72,12 +73,12 @@ export default function Hero() {
               }}
               className="mt-8 flex flex-wrap gap-4"
             >
-              <a
-                href="#"
+              <Link
+                href="/contact"
                 className="rounded-md bg-[#003057] px-5 py-3 text-sm font-semibold text-white shadow hover:bg-indigo-700"
               >
                 Get Free Compliance Assessment
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
 

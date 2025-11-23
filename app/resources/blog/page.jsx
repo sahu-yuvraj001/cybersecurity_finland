@@ -5,7 +5,7 @@ export default function BlogGuidesPage() {
 
         {/* HERO SECTION */}
         <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-4xl font-bold text-slate-900">Blog & Guides</h1>
+          <h1 className="font-playfair text-4xl font-bold text-slate-900">Blog & Guides</h1>
 
           <p className="mt-4 text-lg text-slate-600">
             Expert Insights, Practical Guides & Industry Resources

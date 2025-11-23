@@ -12,7 +12,7 @@ export default function EprivacyPage() {
 
     {/* LEFT SIDE CONTENT */}
     <div>
-      <h1 className="text-4xl md:text-5xl font-bold mb-4">
+      <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-4">
         ePrivacy & Cookie Compliance Services
       </h1>
 

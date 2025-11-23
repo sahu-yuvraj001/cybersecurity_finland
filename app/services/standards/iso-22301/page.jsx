@@ -6,7 +6,7 @@ export default function ISO22301Page() {
     <div className="w-full flex flex-col items-center justify-center">
       {/* Hero Section */}
       <section className="w-full bg-white py-20 text-center px-6 max-w-6xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+        <h1 className="font-playfair text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
           ISO 22301 Business Continuity Management
         </h1>
         <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">

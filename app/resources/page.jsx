@@ -38,7 +38,7 @@ export default function ResourceHub() {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       {/* HERO */}
       <section className="text-center py-20 px-6">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+        <h1 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900">
           Cybersecurity Resource Hub
         </h1>
         <p className="max-w-2xl mx-auto text-gray-600 mt-4 text-lg">
@@ -71,8 +71,7 @@ export default function ResourceHub() {
 
       {/* FEATURED RESOURCES */}
       <section className="py-20 px-6 bg-white">
-        <h2 className="text-3xl font-bold text-center mb-2">
-          Featured Resources
+        <h2 className="font-playfair text-3xl font-bold text-center mb-2">          Featured Resources
         </h2>
         <p className="text-center text-gray-600 mb-12">
           Latest cybersecurity guides, checklists & templates.

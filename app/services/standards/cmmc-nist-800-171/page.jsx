@@ -6,7 +6,7 @@ export default function CmmcNistPage() {
     <div className="w-full font-sans text-gray-800">
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-gray-50 to-white py-20 px-6 text-center">
-        <h1 className="text-4xl font-bold mb-4">CMMC / NIST 800-171</h1>
+        <h1 className="font-playfair text-4xl font-bold mb-4">CMMC / NIST 800-171</h1>
         <p className="max-w-2xl mx-auto text-gray-600 mb-6">
           Gap analysis, SPRS scoring, POA&M, enclave strategies.
         </p>

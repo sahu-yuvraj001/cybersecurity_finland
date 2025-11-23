@@ -6,7 +6,7 @@ export default function Soc2ReadinessPage() {
     <div className="min-h-screen w-full bg-linear-to-b from-white to-purple-50 text-gray-900">
       {/* Hero Section */}
       <section className="w-full py-24 text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">SOC 2 Readiness</h1>
+        <h1 className="font-playfair text-4xl md:text-6xl font-bold mb-4">SOC 2 Readiness</h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
           Map controls to Trust Services Criteria, collect evidence, and prepare for Type I/II audits.
         </p>

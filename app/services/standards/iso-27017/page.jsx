@@ -10,7 +10,7 @@ export default function ISOCloudSecurityPage() {
       <header className="bg-linear-to-b from-white to-slate-50">
         <div className="container mx-auto px-6 py-20 lg:py-28 flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">ISO 27017 &amp; 27018 <span className="text-indigo-700">Cloud Security</span></h1>
+            <h1 className="font-playfair text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">ISO 27017 &amp; 27018 <span className="text-indigo-700">Cloud Security</span></h1>
             <p className="mt-4 max-w-2xl text-slate-600">Comprehensive cloud security implementation covering both cloud computing security controls (ISO 27017) and cloud privacy protection (ISO 27018).</p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">

@@ -22,8 +22,7 @@ export default function ResearchSpotlight() {
           transition={{ duration: 0.4 }}
           className="text-center mb-16"
         >
-          <h2 className="font-playfair text-4xl font-bold text-gray-900">
-            Research & Innovation Spotlight
+          <h2 className="font-playfair font-playfair text-4xl font-bold text-gray-900">            Research & Innovation Spotlight
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             Advancing European cybersecurity through cutting-edge research, 

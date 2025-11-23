@@ -8,7 +8,7 @@ export default function ISO27001Landing() {
       {/* Hero Section */}
       <section className="px-4 py-16 md:py-24 max-w-7xl mx-auto">
         <div className="max-w-3xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
             ISO 27001 Implementation & Auditing
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-4">
@@ -33,8 +33,7 @@ export default function ISO27001Landing() {
       {/* Overview Section */}
       <section className="px-4 py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
-            Overview
+          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">            Overview
           </h2>
           <div className="bg-white p-8 md:p-12 rounded-lg shadow-sm max-w-4xl mx-auto">
             <p className="text-gray-700 mb-4 leading-relaxed">
@@ -55,8 +54,7 @@ export default function ISO27001Landing() {
       <section className="px-4 py-16 md:py-20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Implementation Process
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-4">              Implementation Process
             </h2>
             <p className="text-gray-600 text-lg">
               Structured approach to ISO 27001 implementation and certification
@@ -175,8 +173,7 @@ export default function ISO27001Landing() {
       <section className="px-4 py-16 md:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              ISO 27001 Annex A Controls
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-4">              ISO 27001 Annex A Controls
             </h2>
             <p className="text-gray-600 text-lg">
               Comprehensive implementation of all 14 security control categories
@@ -215,8 +212,7 @@ export default function ISO27001Landing() {
       <section className="px-4 py-16 md:py-20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Implementation Services
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-4">              Our Implementation Services
             </h2>
             <p className="text-gray-600 text-lg">
               Comprehensive ISO 27001 services covering all aspects of ISMS implementation and auditing
@@ -270,8 +266,7 @@ export default function ISO27001Landing() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* What You Get */}
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-                What You Get
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-8">                What You Get
               </h2>
               <ul className="space-y-4">
                 {[
@@ -296,8 +291,7 @@ export default function ISO27001Landing() {
 
             {/* Key Benefits */}
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-                Key Benefits
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-8">                Key Benefits
               </h2>
               <ul className="space-y-4">
                 {[
@@ -321,8 +315,7 @@ export default function ISO27001Landing() {
       {/* CTA Section */}
       <section className="px-4 py-16 md:py-24 bg-blue-600">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Ready for ISO 27001 Certification?
+          <h2 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">            Ready for ISO 27001 Certification?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
             Contact us today to start your ISO 27001 implementation journey

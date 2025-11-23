@@ -62,8 +62,7 @@ export default function Gdpr() {
 
       {/* SERVICES SECTION */}
       <section className="max-w-7xl mx-auto px-6 py-16">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-          Comprehensive Privacy Services
+        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-center mb-16">          Comprehensive Privacy Services
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -98,8 +97,7 @@ export default function Gdpr() {
       </section>
       {/* GDPR PRINCIPLES SECTION */}
       <section className="max-w-7xl mx-auto px-6 py-20">
-        <h2 className="text-3xl md:text-4xl font-bold text-center">
-          GDPR Principles & Compliance Requirements
+        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-center">          GDPR Principles & Compliance Requirements
         </h2>
         <p className="text-slate-600 text-center max-w-2xl mx-auto mt-4">
           Understanding the core GDPR principles and potential penalties for
@@ -186,8 +184,7 @@ export default function Gdpr() {
       {/* COMPETITIVE ADVANTAGE */}
       <section className="bg-white py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
-            Privacy as a Competitive Advantage
+          <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-12">            Privacy as a Competitive Advantage
           </h2>
 
           <div className="grid md:grid-cols-3 gap-10">
@@ -207,8 +204,7 @@ export default function Gdpr() {
 
       {/* CTA */}
       <section className="py-20 text-center px-6">
-        <h2 className="text-3xl md:text-4xl font-bold">
-          Ready to Achieve{" "}
+        <h2 className="font-playfair text-3xl md:text-4xl font-bold">          Ready to Achieve{" "}
           <span className="text-indigo-600">Privacy Excellence?</span>
         </h2>
         <p className="mt-4 text-slate-600 max-w-2xl mx-auto">

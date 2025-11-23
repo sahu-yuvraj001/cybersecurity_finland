@@ -11,7 +11,7 @@ export default function EIDASPage() {
 
     {/* LEFT SIDE CONTENT */}
     <div>
-      <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
+      <h1 className="font-playfair text-4xl md:text-6xl font-bold mb-4 leading-tight">
         eIDAS Digital Trust <br /> & Identity Services
       </h1>
 
@@ -55,8 +55,7 @@ export default function EIDASPage() {
 
       {/* Services Grid */}
       <section className="py-20 px-6 max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-          Comprehensive eIDAS Trust Services
+        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-center mb-10">          Comprehensive eIDAS Trust Services
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -140,8 +139,7 @@ export default function EIDASPage() {
 
       {/* Assurance Levels */}
       <section className="py-20 px-6 bg-white border-t">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-          eIDAS Assurance Levels
+        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-center mb-10">          eIDAS Assurance Levels
         </h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {["Low Level", "Substantial Level", "High Level"].map((lvl, i) => (
@@ -173,8 +171,7 @@ export default function EIDASPage() {
 
       {/* Benefits */}
       <section className="py-20 px-6 max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          Benefits of eIDAS Compliance
+        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-center mb-12">          Benefits of eIDAS Compliance
         </h2>
         <div className="grid md:grid-cols-4 gap-8 text-center">
           {[
@@ -208,8 +205,7 @@ export default function EIDASPage() {
 
       {/* CTA */}
       <section className="text-center py-20 bg-gradient-to-b from-gray-100 to-gray-200">
-        <h2 className="text-4xl font-extrabold mb-4">
-          Ready to Implement Digital Trust?
+        <h2 className="font-playfair text-4xl font-extrabold mb-4">          Ready to Implement Digital Trust?
         </h2>
         <p className="max-w-xl mx-auto text-gray-600 mb-6">
           Build a complete eIDAS‑compliant digital trust infrastructure with our

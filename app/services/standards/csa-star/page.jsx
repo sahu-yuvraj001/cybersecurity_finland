@@ -6,7 +6,7 @@ export default function CsaStarCertification() {
     <div className="min-h-screen w-full bg-white text-gray-900">
       {/* Hero Section */}
       <section className="w-full py-24 px-4 text-center bg-gradient-to-b from-white to-blue-50">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">CSA STAR Cloud Security Certification</h1>
+        <h1 className="font-playfair text-4xl md:text-6xl font-bold mb-4">CSA STAR Cloud Security Certification</h1>
         <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8">
           Cloud security assurance through CSA STAR certification levels 1-3. Demonstrate comprehensive cloud security excellence and build customer trust.
         </p>

@@ -6,7 +6,7 @@ export default function MethodologyPage() {
 
       {/* HERO */}
       <section className="w-full py-24 bg-linear-to-b from-[#0A1437] to-[#122054] text-white text-center">
-        <h1 className="text-4xl md:text-5xl font-bold">Our Methodology</h1>
+        <h1 className="font-playfair text-4xl md:text-5xl font-bold">Our Methodology</h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg opacity-90">
           Proven Approach to Cybersecurity Excellence
         </p>

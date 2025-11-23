@@ -5,7 +5,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-900 to-blue-700 text-white py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
             Get in Touch
           </h1>
           <p className="text-lg max-w-2xl opacity-90">
@@ -24,8 +24,7 @@ export default function ContactPage() {
         
         {/* Left Side - Info */}
         <div>
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Contact Information
+          <h2 className="font-playfair text-3xl font-bold text-slate-900 mb-6">            Contact Information
           </h2>
           <p className="text-slate-600 leading-relaxed mb-8">
             We’re here to guide you through complex cybersecurity and compliance challenges.  
@@ -60,8 +59,7 @@ export default function ContactPage() {
 
         {/* Right Side - Form */}
         <div>
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Send Us a Message
+          <h2 className="font-playfair text-3xl font-bold text-slate-900 mb-6">            Send Us a Message
           </h2>
 
           <form className="bg-white p-8 rounded-xl shadow-xl border border-slate-200 space-y-6">
@@ -114,8 +112,7 @@ export default function ContactPage() {
 
       {/* CTA Section */}
       <section className="bg-white border-t border-slate-200 py-16 text-center">
-        <h2 className="text-3xl font-bold text-slate-900 mb-4">
-          Ready to Get Started?
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 mb-4">          Ready to Get Started?
         </h2>
         <p className="text-slate-600 max-w-2xl mx-auto mb-8">
           Join hundreds of organizations that trust us with their cybersecurity, 

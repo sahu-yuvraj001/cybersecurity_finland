@@ -8,7 +8,7 @@ export default function AboutCSF() {
       
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-6 py-16">
-        <h1 className="text-4xl font-bold text-slate-900 mb-4">About CSF</h1>
+        <h1 className="font-playfair text-4xl font-bold text-slate-900 mb-4">About CSF</h1>
         <p className="text-lg text-slate-600 max-w-3xl">
           Cyber Security Finland – Your Trusted Security Partner.  
           CSF provides comprehensive cybersecurity services to protect organizations 

@@ -22,9 +22,8 @@ export default function CaseStudy() {
             Case Study
           </p>
 
-          <h2 className="text-4xl font-bold leading-tight mb-6">
-            Nordic Bank — GDPR & ISO 27001 Transformation
-          </h2>
+          <h1 className="font-playfair text-4xl font-bold leading-tight mb-6">            Nordic Bank — GDPR & ISO 27001 Transformation
+          </h1>
 
           <p className="text-slate-300 leading-relaxed mb-6">
             A major Nordic financial institution partnered with us to modernize

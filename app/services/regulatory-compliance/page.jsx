@@ -36,7 +36,7 @@ export default function RegulatoryCompliancePage() {
     <div className="max-w-7xl mx-auto px-6 lg:px-10 py-20">
       {/* Heading */}
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+        <h1 className="font-playfair font-playfair text-4xl md:text-5xl font-bold text-slate-900 mb-4">
           Regulatory Compliance
         </h1>
         <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">

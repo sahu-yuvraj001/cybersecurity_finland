@@ -4,7 +4,7 @@ export default function RiskManagement() {
       
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-6 py-20">
-        <h1 className="text-4xl font-bold text-slate-900">
+        <h1 className="font-playfair text-4xl font-bold text-slate-900">
           Risk Management
         </h1>
         <p className="mt-4 text-lg text-slate-600 max-w-2xl">
@@ -12,8 +12,7 @@ export default function RiskManagement() {
         </p>
 
         <div className="mt-8 p-6 bg-slate-100 border border-slate-200 rounded-2xl">
-          <h2 className="text-xl font-semibold text-slate-900">
-            What you get
+          <h2 className="font-playfair text-xl font-semibold text-slate-900">            What you get
           </h2>
           <p className="text-slate-600 mt-2">
             A comprehensive risk management system that guides decision-making and ensures your organization
@@ -24,8 +23,7 @@ export default function RiskManagement() {
 
       {/* Risk Management Components */}
       <section className="max-w-6xl mx-auto px-6 py-16">
-        <h2 className="text-3xl font-semibold text-slate-900">
-          Risk Management Components
+        <h2 className="font-playfair text-3xl font-semibold text-slate-900">          Risk Management Components
         </h2>
         <p className="text-slate-600 mt-2">
           Comprehensive approach to risk management across all organizational levels.
@@ -107,8 +105,7 @@ export default function RiskManagement() {
 
       {/* Implementation Process */}
       <section className="max-w-6xl mx-auto px-6 py-16 bg-slate-50 border-t border-slate-200">
-        <h2 className="text-3xl font-semibold text-slate-900">
-          Implementation Process
+        <h2 className="font-playfair text-3xl font-semibold text-slate-900">          Implementation Process
         </h2>
 
         <div className="grid md:grid-cols-5 gap-6 mt-12">

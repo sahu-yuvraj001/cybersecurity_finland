@@ -19,7 +19,7 @@ export default function ISO27001LandingPage() {
         <div className="container mx-auto px-6 py-20 lg:py-28">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
-             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight drop-shadow-lg">
+             <h1 className="font-playfair text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight drop-shadow-lg">
   <span className="text-black">ISO 27001</span> <span className="text-purple-500">Services</span>
 </h1>
 

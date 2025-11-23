@@ -3,7 +3,7 @@ export default function CriticalInfrastructure() {
     <div className="bg-white">
       {/* HERO */}
       <section className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
-        <h1 className="text-3xl md:text-5xl font-extrabold text-slate-900 leading-tight">
+        <h1 className="font-playfair font-playfair text-3xl md:text-5xl font-extrabold text-slate-900 leading-tight">
           Critical Infrastructure Cybersecurity
         </h1>
         <p className="mt-4 text-lg text-slate-600 max-w-3xl">

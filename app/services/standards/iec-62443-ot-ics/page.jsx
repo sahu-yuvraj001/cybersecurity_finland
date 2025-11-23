@@ -16,7 +16,7 @@ export default function IEC62443Landing() {
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20 lg:py-28">
           <div className="max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
+            <h1 className="font-playfair text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
               IEC 62443 (OT/ICS) Security
             </h1>
             <p className="mt-4 text-lg sm:text-xl text-slate-600 max-w-2xl">
@@ -44,8 +44,7 @@ export default function IEC62443Landing() {
 
       {/* OVERVIEW */}
       <section className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-slate-900">
-          Overview
+        <h2 className="font-playfair text-2xl sm:text-3xl font-semibold text-slate-900">          Overview
         </h2>
         <div className="mt-6 bg-orange-50 border border-orange-100 rounded-xl p-6 shadow-sm">
           <p className="text-slate-700 leading-relaxed">
@@ -66,8 +65,7 @@ export default function IEC62443Landing() {
 
       {/* SERVICES */}
       <section className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-center text-slate-900">
-          Our IEC 62443 Services
+        <h2 className="font-playfair text-2xl sm:text-3xl font-semibold text-center text-slate-900">          Our IEC 62443 Services
         </h2>
         <p className="mt-3 text-center text-slate-600 max-w-2xl mx-auto">
           Comprehensive OT/ICS security services covering all aspects of IEC
@@ -121,8 +119,7 @@ export default function IEC62443Landing() {
 
       {/* INDUSTRIES */}
       <section className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-center text-slate-900">
-          Industries We Serve
+        <h2 className="font-playfair text-2xl sm:text-3xl font-semibold text-center text-slate-900">          Industries We Serve
         </h2>
         <p className="mt-3 text-center text-slate-600 max-w-2xl mx-auto">
           Specialized IEC 62443 expertise across critical industrial sectors.

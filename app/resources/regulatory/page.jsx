@@ -4,7 +4,7 @@ export default function RegulatoryCenter() {
 
       {/* HERO SECTION */}
       <section className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900">
+        <h1 className="font-playfair text-4xl md:text-5xl font-extrabold text-slate-900">
           Cybersecurity Regulatory Center
         </h1>
         <p className="mt-4 text-lg text-slate-600 max-w-3xl">
@@ -35,8 +35,7 @@ export default function RegulatoryCenter() {
       {/* REGULATORY LANDSCAPE */}
       <section id="regulations" className="bg-slate-50 py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900">
-            Regulatory Landscape
+          <h2 className="font-playfair text-3xl font-bold text-slate-900">            Regulatory Landscape
           </h2>
           <p className="mt-2 text-slate-600 max-w-3xl">
             Stay up-to-date with the evolving cybersecurity regulatory environment.
@@ -161,8 +160,7 @@ export default function RegulatoryCenter() {
       {/* SERVICES SECTION */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900">
-            Regulatory Services
+          <h2 className="font-playfair text-3xl font-bold text-slate-900">  Regulatory Services
           </h2>
           <p className="mt-2 text-slate-600 max-w-3xl">
             We help organizations navigate complex regulatory requirements with expert guidance and practical solutions.

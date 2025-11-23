@@ -17,7 +17,7 @@ export default function ISAE3000Landing() {
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20 lg:py-28">
           <div className="max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
+            <h1 className="font-playfair text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
               ISAE 3000 Assurance
             </h1>
             <p className="mt-4 text-lg sm:text-xl text-slate-600">
@@ -61,8 +61,7 @@ export default function ISAE3000Landing() {
 
       {/* SERVICES */}
       <main className="max-w-7xl mx-auto px-6 lg:px-8 py-16" id="services">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-slate-900 text-center">
-          Our ISAE 3000 Services
+        <h2 className="font-playfair text-2xl sm:text-3xl font-semibold text-slate-900 text-center">          Our ISAE 3000 Services
         </h2>
         <p className="mt-3 text-center text-slate-600 max-w-2xl mx-auto">
           Comprehensive support for every stage of your ISAE 3000 attestation journey.

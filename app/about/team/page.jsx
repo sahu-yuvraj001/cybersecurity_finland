@@ -6,7 +6,7 @@ export default function TeamPage() {
 
       {/* HERO */}
       <div className="w-full py-24 bg-gradient-to-b from-[#0A1437] to-[#122054] text-center text-white">
-        <h1 className="text-4xl md:text-5xl font-bold">Team and Certifications</h1>
+        <h1 className="font-playfair text-4xl md:text-5xl font-bold">Team and Certifications</h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg opacity-90">
           Meet our expert cybersecurity professionals delivering compliance, risk management,
           and advanced security solutions.

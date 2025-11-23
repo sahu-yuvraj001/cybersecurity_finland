@@ -3,7 +3,7 @@ export default function HealthcareLifeSciences() {
     <div className="bg-white text-slate-800">
       {/* Header Section */}
       <section className="max-w-6xl mx-auto px-6 py-20 text-center">
-        <h1 className="text-4xl font-bold mb-4">Healthcare and Life Sciences</h1>
+        <h1 className="font-playfair text-4xl font-bold mb-4">Healthcare and Life Sciences</h1>
         <p className="text-lg text-slate-600 max-w-3xl mx-auto">
           Comprehensive cybersecurity and compliance services for the healthcare and life sciences sector.
         </p>

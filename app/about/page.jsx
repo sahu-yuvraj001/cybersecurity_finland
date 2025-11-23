@@ -47,7 +47,7 @@ export default function AboutPage() {
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-20">
           <div className="grid lg:grid-cols-2 gap-10 items-center">
             <div className="max-w-xl">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900">
+              <h1 className="font-playfair text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900">
                 About <span className="text-cyan-600">Cybersecurity.fi</span>
               </h1>
               <p className="mt-6 text-slate-600 text-lg sm:text-xl leading-relaxed">
@@ -106,7 +106,7 @@ export default function AboutPage() {
       {/* STORY */}
       <section id="story" className="max-w-5xl mx-auto px-6 lg:px-8 py-16">
         <div className="prose prose-slate mx-auto text-center">
-          <h2 className="text-3xl font-bold">Our Story</h2>
+          <h2 className="font-playfair text-3xl font-bold">Our Story</h2>
           <p className="text-slate-600">
             Founded to make cybersecurity compliance simple and practical, Cybersecurity.fi helps
             organisations across Finland and Europe adopt secure practices without bureaucracy. We

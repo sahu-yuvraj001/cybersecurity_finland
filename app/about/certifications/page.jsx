@@ -5,7 +5,7 @@ export default function CertificationsPage() {
 
       {/* HERO SECTION */}
       <section className="w-full py-24 bg-gradient-to-b from-[#0A1437] to-[#122054] text-white text-center px-5">
-        <h1 className="text-4xl md:text-5xl font-bold">Certifications and Partnerships</h1>
+        <h1 className="font-playfair text-4xl md:text-5xl font-bold">Certifications and Partnerships</h1>
         <p className="mt-4 max-w-3xl mx-auto text-lg opacity-90">
           Trusted by Industry Leaders and Regulatory Bodies
         </p>

@@ -4,7 +4,7 @@ export default function NIS2Page() {
       {/* HERO */}
       <section className="px-6 lg:px-24 py-20 bg-gradient-to-br from-slate-50 to-white">
         <div className="max-w-5xl">
-          <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+          <h1 className="font-playfair text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
             NIS2 Network and Information Security Directive
           </h1>
           <p className="mt-5 text-lg text-slate-600 max-w-3xl">

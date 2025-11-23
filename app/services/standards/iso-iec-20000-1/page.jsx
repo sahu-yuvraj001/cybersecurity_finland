@@ -10,7 +10,7 @@ export default function ISO20000() {
             IT Service Management Excellence
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
+          <h1 className="font-playfair font-playfair text-4xl md:text-5xl font-extrabold text-gray-900">
             ISO/IEC <span className="text-purple-600">20000-1</span>
           </h1>
 
@@ -32,8 +32,7 @@ export default function ISO20000() {
       {/* MSSP Service Management Solutions */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-center text-3xl font-bold text-gray-900">
-            MSSP Service Management Solutions
+          <h2 className="font-playfair text-center text-3xl font-bold text-gray-900">            MSSP Service Management Solutions
           </h2>
           <p className="mt-4 text-center text-gray-600 max-w-3xl mx-auto">
             Comprehensive IT service management alignment for managed security service providers.
@@ -104,8 +103,7 @@ export default function ISO20000() {
       {/* Key Processes */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-center text-3xl font-bold text-gray-900">
-            ISO/IEC 20000-1 Key Processes
+          <h2 className="font-playfair text-center text-3xl font-bold text-gray-900">            ISO/IEC 20000-1 Key Processes
           </h2>
           <p className="text-gray-600 text-center mt-3 max-w-3xl mx-auto">
             Comprehensive coverage of all required service management processes.
@@ -212,8 +210,7 @@ export default function ISO20000() {
       {/* Why Choose */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-center text-3xl font-bold text-gray-900">
-            Why Choose ISO/IEC 20000-1?
+          <h2 className="font-playfair text-center text-3xl font-bold text-gray-900">            Why Choose ISO/IEC 20000-1?
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8 mt-14">

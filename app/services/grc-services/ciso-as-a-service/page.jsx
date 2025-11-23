@@ -3,7 +3,7 @@ export default function CisoServicePage() {
     <div className="min-h-screen bg-white text-slate-800">
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 py-20 text-center">
-        <h1 className="text-4xl font-bold mb-4">CISO-as-a-Service</h1>
+        <h1 className="font-playfair text-4xl font-bold mb-4">CISO-as-a-Service</h1>
         <p className="text-lg text-slate-600 max-w-2xl mx-auto">
           Expert Security Leadership on Demand — from strategy to execution,
           without full-time recruitment.
@@ -20,8 +20,7 @@ export default function CisoServicePage() {
 
       {/* Core CISO Service Areas */}
       <section className="max-w-7xl mx-auto px-6 py-16">
-        <h2 className="text-3xl font-bold mb-10 text-center">
-          Core CISO Service Areas
+        <h2 className="font-playfair text-3xl font-bold mb-10 text-center">          Core CISO Service Areas
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           {[
@@ -54,8 +53,7 @@ export default function CisoServicePage() {
 
       {/* Leadership Areas */}
       <section className="max-w-7xl mx-auto px-6 py-16">
-        <h2 className="text-3xl font-bold mb-10 text-center">
-          Leadership Areas
+        <h2 className="font-playfair text-3xl font-bold mb-10 text-center">          Leadership Areas
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div
@@ -111,8 +109,7 @@ export default function CisoServicePage() {
 
       {/* Deliverables and Outcomes */}
       <section className="max-w-7xl mx-auto px-6 py-16">
-        <h2 className="text-3xl font-bold mb-10 text-center">
-          Deliverables and Outcomes
+        <h2 className="font-playfair text-3xl font-bold mb-10 text-center">          Deliverables and Outcomes
         </h2>
         <div className="grid md:grid-cols-4 gap-6">
           <div
@@ -179,8 +176,7 @@ export default function CisoServicePage() {
 
       {/* Engagement Models */}
       <section className="max-w-7xl mx-auto px-6 py-16">
-        <h2 className="text-3xl font-bold mb-10 text-center">
-          Engagement Models
+        <h2 className="font-playfair text-3xl font-bold mb-10 text-center">          Engagement Models
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           {[
@@ -256,8 +252,7 @@ export default function CisoServicePage() {
 
       {/* CTA */}
       <section className="max-w-4xl mx-auto px-6 py-20 text-center">
-        <h2 className="text-3xl font-bold mb-4">
-          Need Expert Security Leadership?
+        <h2 className="font-playfair text-3xl font-bold mb-4">          Need Expert Security Leadership?
         </h2>
         <p className="text-slate-600 mb-8">
           Let's discuss your organization's needs and the most suitable CISO

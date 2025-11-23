@@ -116,7 +116,7 @@ export default function Home() {
               <span className="text-sm font-semibold">Enterprise-Grade Compliance</span>
             </div>
             
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold mb-6 bg-gradient-to-r from-blue-600 via-cyan-600 to-blue-600 bg-clip-text text-transparent leading-tight">
+            <h1 className="font-playfair text-5xl sm:text-6xl lg:text-7xl font-extrabold mb-6 bg-gradient-to-r from-blue-600 via-cyan-600 to-blue-600 bg-clip-text text-transparent leading-tight">
               Compliance-as-a-Service
             </h1>
             

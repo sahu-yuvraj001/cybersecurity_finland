@@ -7,7 +7,7 @@ export default function BusinessContinuity() {
     <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20 space-y-20">
       {/* HERO */}
       <section className="text-center space-y-6">
-        <h1 className="text-4xl md:text-5xl font-bold text-slate-900">
+        <h1 className="font-playfair text-4xl md:text-5xl font-bold text-slate-900">
           Business Continuity Management
         </h1>
         <p className="text-lg text-slate-600 max-w-2xl mx-auto">
@@ -26,8 +26,7 @@ export default function BusinessContinuity() {
 
       {/* CORE COMPONENTS */}
       <section>
-        <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
-          Core BCMS Components
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 mb-8 text-center">          Core BCMS Components
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -47,8 +46,7 @@ export default function BusinessContinuity() {
 
       {/* BIA SECTION */}
       <section className="space-y-12">
-        <h2 className="text-3xl font-bold text-slate-900 text-center">
-          Business Impact Analysis (BIA)
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 text-center">          Business Impact Analysis (BIA)
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -89,8 +87,7 @@ export default function BusinessContinuity() {
 
       {/* CONTINUITY PLANS */}
       <section>
-        <h2 className="text-3xl font-bold text-slate-900 text-center mb-10">
-          Types of Continuity Plans
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 text-center mb-10">          Types of Continuity Plans
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -146,8 +143,7 @@ export default function BusinessContinuity() {
 
       {/* EXERCISES */}
       <section>
-        <h2 className="text-3xl font-bold text-slate-900 text-center mb-10">
-          Exercise Types and Testing
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 text-center mb-10">          Exercise Types and Testing
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -161,8 +157,7 @@ export default function BusinessContinuity() {
 
       {/* IMPLEMENTATION PROCESS */}
       <section>
-        <h2 className="text-3xl font-bold text-slate-900 text-center mb-10">
-          Implementation Process
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 text-center mb-10">          Implementation Process
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">

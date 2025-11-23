@@ -91,7 +91,7 @@ export default function BSIC5Page() {
                 <Lock className="w-4 h-4" />
                 <span>German Cloud Security Standard</span>
               </div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 leading-tight">
+              <h1 className="font-playfair text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 leading-tight">
                 BSI C5 (Cloud) <span className="bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">Attestation</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed">

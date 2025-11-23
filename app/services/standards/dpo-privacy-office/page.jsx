@@ -112,7 +112,7 @@ export default function DPOPrivacyPage() {
               <Lock className="w-4 h-4" />
               <span>GDPR Compliance & Privacy Leadership</span>
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 leading-tight mb-6">
+            <h1 className="font-playfair text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 leading-tight mb-6">
               DPO/Privacy <span className="bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">Office-as-a-Service</span>
             </h1>
             <p className="text-xl text-slate-600 leading-relaxed mb-6">

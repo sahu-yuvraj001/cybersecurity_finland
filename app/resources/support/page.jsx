@@ -4,7 +4,7 @@ export default function SupportTools() {
 
       {/* HERO SECTION */}
       <section className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900">
+        <h1 className="font-playfair text-4xl md:text-5xl font-extrabold text-slate-900">
           Support & Tools
         </h1>
         <p className="mt-4 text-lg text-slate-600 max-w-3xl">
@@ -50,8 +50,7 @@ export default function SupportTools() {
       {/* SUPPORT SERVICES */}
       <section id="tools" className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900">
-            Support Services
+          <h2 className="font-playfair text-3xl font-bold text-slate-900">            Support Services
           </h2>
           <p className="mt-2 text-slate-600 max-w-3xl">
             Find the right type of support for your needs — from documentation to personal consultation.

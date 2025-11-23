@@ -100,7 +100,7 @@ export default function CareersPage() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/25"></div>
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center px-6">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight">
+              <h1 className="font-playfair text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight">
                 Careers
               </h1>
               <p className="mt-3 text-white/90 max-w-2xl mx-auto text-base sm:text-lg">

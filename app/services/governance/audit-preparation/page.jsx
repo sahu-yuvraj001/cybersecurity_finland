@@ -5,7 +5,7 @@ export default function AuditPreparation() {
     <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20 space-y-20">
       {/* HERO */}
       <section className="text-center space-y-6">
-        <h1 className="text-4xl md:text-5xl font-bold text-slate-900">
+        <h1 className="font-playfair text-4xl md:text-5xl font-bold text-slate-900">
           Audit Readiness & Evidence Management
         </h1>
         <p className="text-lg text-slate-600 max-w-3xl mx-auto">
@@ -24,8 +24,7 @@ export default function AuditPreparation() {
 
       {/* COMPONENTS */}
       <section>
-        <h2 className="text-3xl font-bold text-slate-900 text-center mb-10">
-          Audit Preparation Components
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 text-center mb-10">          Audit Preparation Components
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -45,8 +44,7 @@ export default function AuditPreparation() {
 
       {/* EVIDENCE TYPES */}
       <section>
-        <h2 className="text-3xl font-bold text-slate-900 text-center mb-10">
-          Evidence Types and Management
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 text-center mb-10">          Evidence Types and Management
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -87,8 +85,7 @@ export default function AuditPreparation() {
 
       {/* AUDIT STANDARDS */}
       <section>
-        <h2 className="text-3xl font-bold text-slate-900 text-center mb-10">
-          Supported Audit Standards
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 text-center mb-10">          Supported Audit Standards
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -124,8 +121,7 @@ export default function AuditPreparation() {
 
       {/* PREPARATION PROCESS */}
       <section>
-        <h2 className="text-3xl font-bold text-slate-900 text-center mb-10">
-          Preparation Process Phases
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 text-center mb-10">          Preparation Process Phases
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -180,8 +176,7 @@ export default function AuditPreparation() {
 
       {/* TRACKING METRICS */}
       <section>
-        <h2 className="text-3xl font-bold text-slate-900 text-center mb-10">
-          Tracking Metrics
+        <h2 className="font-playfair text-3xl font-bold text-slate-900 text-center mb-10">          Tracking Metrics
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

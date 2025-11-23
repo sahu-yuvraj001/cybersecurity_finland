@@ -118,7 +118,7 @@ export default function GRCPlatform() {
               <span className="text-sm font-semibold">Expert Platform Administration</span>
             </div>
             
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold mb-6 bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent leading-tight">
+            <h1 className="font-playfair text-5xl sm:text-6xl lg:text-7xl font-extrabold mb-6 bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent leading-tight">
               GRC Platform Managed Service
             </h1>
             

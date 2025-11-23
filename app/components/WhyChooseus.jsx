@@ -42,8 +42,7 @@ export default function WhyChooseUs() {
           transition={{ duration: 0.4 }}
           className="text-center mb-12"
         >
-          <h2 className="font-playfair text-4xl font-bold text-gray-900">
-            Why Choose Our GDPR Services?
+          <h2 className="font-playfair font-playfair text-4xl font-bold text-gray-900">            Why Choose Our GDPR Services?
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             We deliver trusted, premium-quality compliance solutions that help

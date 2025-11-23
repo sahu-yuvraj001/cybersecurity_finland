@@ -54,8 +54,7 @@ export default function GDPRPrinciples() {
           transition={{ duration: 0.4 }}
           className="text-center mb-14"
         >
-          <h2 className="font-playfair text-4xl font-bold text-gray-900">
-            GDPR Principles & Compliance Requirements
+          <h2 className="font-playfair font-playfair text-4xl font-bold text-gray-900">            GDPR Principles & Compliance Requirements
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             Understanding the core GDPR principles and the consequences of non-compliance.

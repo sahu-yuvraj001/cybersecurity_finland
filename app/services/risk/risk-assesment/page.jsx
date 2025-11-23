@@ -4,7 +4,7 @@ export default function RiskAssessments() {
 
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-6 py-20">
-        <h1 className="text-4xl font-bold text-slate-900">
+        <h1 className="font-playfair text-4xl font-bold text-slate-900">
           Risk Assessments
         </h1>
         <p className="mt-4 text-lg text-slate-600 max-w-2xl">

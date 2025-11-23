@@ -9,7 +9,7 @@ export default function CisoAsAService() {
       {/* Hero */}
       <section className="pt-28 pb-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+          <h1 className="font-playfair text-4xl md:text-5xl font-bold tracking-tight">
             CISO-as-a-Service
           </h1>
 

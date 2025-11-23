@@ -3,7 +3,7 @@ export default function FinancialServices() {
     <div className="px-6 py-16 max-w-7xl mx-auto space-y-20">
       {/* Hero Section */}
       <section className="space-y-6 text-center">
-        <h1 className="text-4xl font-bold text-slate-900">Financial Services and Fintech</h1>
+        <h1 className="font-playfair text-4xl font-bold text-slate-900">Financial Services and Fintech</h1>
         <p className="text-lg text-slate-600 max-w-3xl mx-auto">
           Comprehensive cybersecurity and compliance services for financial services and fintech organizations.
         </p>

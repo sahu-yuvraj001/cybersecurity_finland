@@ -35,8 +35,7 @@ export default function Industries() {
           transition={{ duration: 0.5 }}
           className="text-center mb-14"
         >
-          <h2 className="font-playfair text-4xl font-bold text-gray-900">
-            Industries We Secure
+          <h2 className="font-playfair font-playfair text-4xl font-bold text-gray-900">            Industries We Secure
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             Trusted cybersecurity & GDPR solutions for global organisations across 

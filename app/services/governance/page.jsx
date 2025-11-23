@@ -20,7 +20,7 @@ export default function GovernanceStrategyPage() {
   return (
     <main className="px-6 py-16 max-w-7xl mx-auto">
       {/* Page Heading */}
-      <h1 className="text-4xl font-bold text-slate-900 mb-4">
+      <h1 className="font-playfair text-4xl font-bold text-slate-900 mb-4">
         Governance & Strategy
       </h1>
       <p className="text-lg text-slate-600 mb-12 max-w-3xl">

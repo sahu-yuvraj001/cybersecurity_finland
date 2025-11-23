@@ -3,7 +3,7 @@ export default function PolicyGovernance() {
     <div className="w-full bg-white text-slate-800">
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 py-20">
-        <h1 className="text-4xl font-bold mb-4">Policy Governance</h1>
+        <h1 className="font-playfair text-4xl font-bold mb-4">Policy Governance</h1>
         <p className="text-lg text-slate-600 max-w-2xl">
           Create a clear, owned, and maintained security policy architecture mapped to compliance requirements.
         </p>
