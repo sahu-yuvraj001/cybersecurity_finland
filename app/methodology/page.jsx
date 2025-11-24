@@ -1,3 +1,31 @@
+export const metadata = {
+  title: "Our Methodology | Cybersecurity Framework & Implementation Approach",
+  description:
+    "Discover our proven cybersecurity methodology based on structured phases, best practices, and real-world experience. Learn how we deliver measurable and sustainable security improvements.",
+  keywords: [
+    "cybersecurity methodology",
+    "security implementation process",
+    "compliance framework",
+    "risk management approach",
+    "cybersecurity consulting",
+    "implementation phases",
+    "security best practices",
+  ],
+  openGraph: {
+    title: "Our Methodology | Cybersecurity Framework & Implementation Approach",
+    description:
+      "A structured 5-phase methodology designed to help organizations achieve cybersecurity excellence through best practices and measurable outcomes.",
+    url: "https://yourdomain.com/methodology",
+    images: [
+      {
+        url: "/og-methodology.png",
+        width: 1200,
+        height: 630,
+        alt: "Cybersecurity Methodology Overview",
+      },
+    ],
+  },
+};
 import Link from "next/link";
 
 export default function MethodologyPage() {

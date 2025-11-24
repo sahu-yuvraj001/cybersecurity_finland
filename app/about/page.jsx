@@ -60,9 +60,9 @@ export default function AboutPage() {
                 <Link href="/contact" className="inline-flex items-center px-5 py-3 bg-cyan-600 text-white rounded-xl font-medium shadow hover:bg-cyan-700 transition">
                   Schedule Consultation
                 </Link>
-                <a href="#story" className="inline-flex items-center px-4 py-3 border border-gray-200 rounded-xl text-slate-700 hover:bg-white transition">
+                <Link href="#story" className="inline-flex items-center px-4 py-3 border border-gray-200 rounded-xl text-slate-700 hover:bg-white transition">
                   Our Story
-                </a>
+                </Link>
               </div>
 
               <ul className="mt-8 grid grid-cols-2 gap-3 text-sm text-slate-600">

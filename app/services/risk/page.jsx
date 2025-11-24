@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RiskAssessmentPage() {
   const items = [
     {
@@ -42,12 +44,12 @@ export default function RiskAssessmentPage() {
             </h3>
             <p className="text-slate-600 mb-3">{item.desc}</p>
 
-            <a
+            <Link
               href={item.href}
               className="text-indigo-600 font-medium hover:text-indigo-800 transition"
             >
               Read more →
-            </a>
+            </Link>
           </div>
         ))}
       </div>

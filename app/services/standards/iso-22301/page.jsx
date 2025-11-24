@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "ISO 22301 Business Continuity Management Services",
+  description: "Ensure operational resilience and rapid recovery with ISO 22301 Business Continuity Management. Protect your organization during disruptions and meet regulatory requirements.",
+};
 import Link from "next/link";
 import React from "react";
 

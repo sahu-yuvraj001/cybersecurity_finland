@@ -1,3 +1,32 @@
+export const metadata = {
+  title: "ISO/IEC 20000-1 IT Service Management | MSSP ITSM Solutions",
+  description: "Align your IT service management with ISO/IEC 20000-1 standards. Expert MSSP process alignment, SLA framework development, and continuous improvement for ITSM excellence.",
+  keywords: [
+    "ISO 20000", "ISO/IEC 20000-1", "IT service management", "MSSP ITSM", "SLA framework", "service catalog", "ITIL", "process alignment"
+  ],
+  openGraph: {
+    title: "ISO/IEC 20000-1 IT Service Management | MSSP Solutions",
+    description: "Achieve IT service management excellence with ISO/IEC 20000-1. Expert guidance for MSSPs including process alignment, SLAs, and continuous improvement.",
+    url: "https://yourdomain.com/services/iso-20000",
+    siteName: "Your Company Name",
+    images: [
+      {
+        url: "/iso-20000.jpg",
+        width: 1200,
+        height: 630,
+        alt: "ISO 20000-1 IT Service Management"
+      }
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ISO/IEC 20000-1 IT Service Management | MSSP Solutions",
+    description: "Align IT services with ISO/IEC 20000-1 standards and optimize MSSP processes.",
+    images: ["/iso-20000.jpg"],
+  },
+};
 import Link from "next/link";
 import { FaCheckCircle } from "react-icons/fa";
 export default function ISO20000() {

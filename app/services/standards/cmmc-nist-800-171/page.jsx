@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "CMMC / NIST 800-171 Compliance Services",
+  description: "Expert CMMC & NIST 800-171 compliance services including gap analysis, SPRS scoring, POA&M, and enclave strategies for federal contracts.",
+};
 import Link from "next/link";
 import React from "react";
 

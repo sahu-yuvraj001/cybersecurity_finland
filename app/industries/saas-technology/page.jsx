@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "SaaS & Technology Cybersecurity | Compliance & GDPR",
+  description:
+    "Cybersecurity and compliance services for SaaS providers, software companies, and technology organizations. Achieve GDPR compliance, secure cloud services, and product security.",
+};
 import React from "react";
 
 export default function SaasTechnology() {

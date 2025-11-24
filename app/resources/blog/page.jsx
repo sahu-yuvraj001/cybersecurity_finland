@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Blog & Guides | Cybersecurity Insights, Articles & Implementation Guides",
+  description:
+    "Explore expert cybersecurity blogs, NIS2 & ISO guides, compliance frameworks, threat analysis, and practical implementation toolkits.",
+};
 export default function BlogGuidesPage() {
   return (
     <div className="bg-white py-20">

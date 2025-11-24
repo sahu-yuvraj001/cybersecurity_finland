@@ -72,7 +72,7 @@ export default function ComplianceProcess() {
                 </div>
 
                 {/* Title */}
-                <h3 className="font-playfair text-lg font-semibold mb-2">{item.title}</h3>
+                <h2 className="font-playfair text-lg font-semibold mb-2">{item.title}</h2>
 
                 {/* Description */}
                 <p className="text-gray-600 text-sm">{item.desc}</p>

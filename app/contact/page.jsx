@@ -1,3 +1,42 @@
+import Link from "next/link";
+
+export const metadata = {
+  title: "Contact Us | Cybersecurity & Compliance Experts | Cybersecurity.fi",
+  description:
+    "Get in touch with cybersecurity and compliance specialists. Contact us for GDPR, NIS2, ISO, governance, risk, and enterprise security solutions. Fast response within 24 hours.",
+  keywords: [
+    "cybersecurity contact",
+    "contact cybersecurity experts",
+    "GDPR help",
+    "NIS2 assistance",
+    "ISO compliance support",
+    "contact cyber security",
+    "data protection consulting"
+  ],
+  openGraph: {
+    title: "Contact Cybersecurity Experts | Cybersecurity.fi",
+    description:
+      "Reach out to our cybersecurity and compliance specialists for assessments, guidance, and enterprise GRC solutions.",
+    url: "https://cybersecurity.fi/contact",
+    type: "website",
+    images: [
+      {
+        url: "/og/contact.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Contact Cybersecurity.fi"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Cybersecurity.fi Experts",
+    description:
+      "Speak with cybersecurity, GDPR, NIS2, and compliance experts today.",
+    images: ["/og/contact.jpg"]
+  }
+};
+
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-slate-50">
@@ -118,12 +157,12 @@ export default function ContactPage() {
           Join hundreds of organizations that trust us with their cybersecurity, 
           risk management, and compliance needs.
         </p>
-        <a
-          href="#"
+        <Link
+          href="/"
           className="px-8 py-4 bg-blue-700 text-white rounded-xl font-semibold hover:bg-blue-800 transition shadow-lg"
         >
           Schedule a Consultation
-        </a>
+        </Link>
       </section>
     </div>
   );

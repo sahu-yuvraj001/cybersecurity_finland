@@ -1,4 +1,7 @@
-// app/ciso-as-a-service/page.tsx
+export const metadata = {
+  title: "CISO-as-a-Service | Virtual Chief Information Security Officer",
+  description: "Get strategic cybersecurity leadership with our CISO-as-a-Service. We provide virtual CISO guidance, roadmaps, metrics, and stakeholder reporting to strengthen your security program.",
+};
 
 import Link from "next/link";
 

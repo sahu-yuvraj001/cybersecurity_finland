@@ -1,8 +1,41 @@
-export const metadata = {
-  title: "Regulatory Compliance | Cybersecurity.fi",
-  description: "Navigate complex regulations with confidence.",
-};
+import Link from "next/link";
 
+export const metadata = {
+  title: "Regulatory Compliance Services | NIS2, DORA, GDPR, eIDAS, ePrivacy",
+  description:
+    "Comprehensive regulatory compliance services covering NIS2, DORA, GDPR, eIDAS, and ePrivacy to help organizations meet European cybersecurity and privacy requirements.",
+  keywords: [
+    "regulatory compliance",
+    "NIS2 compliance",
+    "DORA compliance",
+    "GDPR services",
+    "eIDAS trust services",
+    "ePrivacy compliance",
+    "EU cybersecurity regulation",
+  ],
+  openGraph: {
+    title: "Regulatory Compliance Services | Cybersecurity & Privacy Standards",
+    description:
+      "Navigate European cybersecurity and privacy regulations with expert support across NIS2, DORA, GDPR, eIDAS, and ePrivacy.",
+    url: "https://your-domain.com/services/regulatory-compliance",
+    type: "article",
+    images: [
+      {
+        url: "/og/regulatory-compliance.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Regulatory Compliance Overview",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Regulatory Compliance Services",
+    description:
+      "Expert help with NIS2, DORA, GDPR, eIDAS, and ePrivacy compliance.",
+    images: ["/og/regulatory-compliance.jpg"],
+  },
+};
 export default function RegulatoryCompliancePage() {
   const services = [
     {
@@ -63,7 +96,7 @@ export default function RegulatoryCompliancePage() {
               {service.desc}
             </p>
 
-            <a
+            <Link
               href={service.href}
               className="mt-6 inline-flex items-center text-indigo-600 font-medium group"
             >
@@ -71,7 +104,7 @@ export default function RegulatoryCompliancePage() {
               <span className="ml-1 transform group-hover:translate-x-1 transition">
                 →
               </span>
-            </a>
+            </Link>
           </div>
         ))}
       </div>

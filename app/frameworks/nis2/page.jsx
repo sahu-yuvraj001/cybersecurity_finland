@@ -1,3 +1,10 @@
+import Link from "next/link";
+
+export const metadata = {
+  title: "NIS2 Compliance | Finnish Cybersecurity Services",
+  description:
+    "Expert NIS2 Directive implementation for Finnish organizations. Achieve EU cybersecurity compliance, protect critical infrastructure, and build resilient digital systems.",
+};
 export default function NIS2Page() {
   return (
     <div className="min-h-screen bg-white text-slate-800">
@@ -14,19 +21,19 @@ export default function NIS2Page() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <a
+            <Link
               href="/contact"
               className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow"
             >
               Start NIS2 Compliance Journey
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="/services/regulatory-compliance"
               className="px-6 py-3 border border-slate-300 rounded-lg hover:bg-slate-50"
             >
               View Our Services
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -363,12 +370,12 @@ export default function NIS2Page() {
           guidance. Let's discuss how we can help you meet EU cybersecurity requirements.
         </p>
 
-        <a
+        <Link
           href="/contact"
           className="mt-8 inline-block px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow hover:bg-slate-100"
         >
           Start Your NIS2 Journey
-        </a>
+        </Link>
       </section>
     </div>
   );

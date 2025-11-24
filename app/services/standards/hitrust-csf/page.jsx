@@ -1,5 +1,8 @@
 // app/hitrust/page.tsx
-
+export const metadata = {
+  title: "HITRUST CSF Compliance Services",
+  description: "Achieve HITRUST CSF certification with our readiness assessments, control mapping, and validated assessment support.",
+};
 import Link from "next/link";
 
 export default function HitrustPage() {

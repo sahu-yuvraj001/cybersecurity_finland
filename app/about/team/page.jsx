@@ -1,5 +1,28 @@
 import Link from "next/link";
-
+export const metadata = {
+  title: "Team & Certifications | Cybersecurity Experts | Cybersecurity.fi",
+  description:
+    "Meet our certified cybersecurity experts specializing in GDPR, NIS2, ISO standards, governance, risk, and compliance. Explore our team, professional certifications, and cybersecurity expertise.",
+  keywords: [
+    "cybersecurity team",
+    "cybersecurity experts Finland",
+    "GDPR consultants",
+    "NIS2 compliance Finland",
+    "ISO 27001 experts",
+    "cybersecurity.fi team",
+    "GRC specialists",
+    "security auditors",
+    "cybersecurity certifications"
+  ],
+  openGraph: {
+    title: "Meet Our Cybersecurity Experts | Team & Certifications",
+    description:
+      "Get to know the cybersecurity.fi expert team delivering world-class security, compliance, and GRC services.",
+    url: "https://cybersecurity.fi/team",
+    siteName: "Cybersecurity.fi",
+    type: "website",
+  },
+};
 export default function TeamPage() {
   return (
     <div className="w-full bg-white">

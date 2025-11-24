@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "ISO 27001 Implementation & Auditing Services",
+  description: "Expert ISO 27001 ISMS implementation, risk assessment, and internal auditing services to achieve certification and maintain robust information security.",
+};
 import React from 'react';
 import { Check } from 'lucide-react';
 import Link from 'next/link';

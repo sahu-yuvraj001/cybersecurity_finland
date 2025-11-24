@@ -47,7 +47,7 @@ export default function ResearchSpotlight() {
 
           <div className="flex flex-wrap gap-4">
             <Link href="/contact" className="flex items-center gap-2 bg-white text-gray-900 px-6 py-3 rounded-xl font-medium hover:bg-gray-200 transition">
-              Learn More <ArrowRight size={18} />
+             Contact Us <ArrowRight size={18} />
             </Link>
             <Link href="/contact"  className="flex items-center gap-2 bg-transparent border border-white px-6 py-3 rounded-xl font-medium hover:bg-white hover:text-gray-900 transition">
               View Publications <ArrowRight size={18} />
@@ -77,7 +77,7 @@ export default function ResearchSpotlight() {
               </p>
 
               <Link href="/contact" className="flex items-center gap-2 text-indigo-600 font-medium hover:underline">
-                Learn More <ArrowRight size={16} />
+                Contact Us<ArrowRight size={16} />
               </Link>
             </motion.div>
           ))}
@@ -85,9 +85,9 @@ export default function ResearchSpotlight() {
 
         {/* Footer CTA */}
         <div className="mt-14 text-center">
-          <button className="inline-flex items-center gap-2 text-indigo-600 font-semibold text-lg hover:underline">
+          <Link href="/contact" className="inline-flex items-center gap-2 text-indigo-600 font-semibold text-lg hover:underline">
             View All Research Projects <ArrowRight size={20} />
-          </button>
+          </Link>
         </div>
 
       </div>

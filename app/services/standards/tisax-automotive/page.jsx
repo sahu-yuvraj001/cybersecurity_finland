@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -7,7 +8,7 @@ export default function TisaxLanding() {
       {/* HERO */}
       <header className="relative overflow-hidden bg-gradient-to-b from-sky-50 to-white">
         <div className="absolute inset-0 -z-10">
-          <img
+          <Image
             src="/mnt/data/96b490b5-17ff-42e8-9c1c-9c5181f92349.png"
             alt="old TISAX design"
             className="w-full h-full object-cover opacity-5 blur-sm"

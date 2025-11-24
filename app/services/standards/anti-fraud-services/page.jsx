@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Anti-Fraud Services | Business Email & Payment Scam Protection",
+  description: "Expert anti-fraud services to protect your organization from business email compromise, invoice fraud, and payment scams. Ensure secure operations with our risk management solutions.",
+};
 import React from 'react';
 import { Check, Shield, AlertTriangle, Eye, Users, FileCheck, TrendingUp } from 'lucide-react';
 import Link from 'next/link';

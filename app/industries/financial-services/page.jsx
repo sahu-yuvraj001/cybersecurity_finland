@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Financial Services & Fintech Cybersecurity | Compliance & DORA Experts",
+  description:
+    "Cybersecurity, DORA compliance, ISO 27001, anti-fraud protection and risk management for banks, fintech, insurance and financial service organizations.",
+};
 export default function FinancialServices() {
   return (
     <div className="px-6 py-16 max-w-7xl mx-auto space-y-20">

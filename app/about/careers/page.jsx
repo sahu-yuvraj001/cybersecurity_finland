@@ -1,4 +1,7 @@
-"use client";
+export const metadata = {
+  title: "Careers | Cybersecurity Jobs & Opportunities",
+  description: "Explore senior and mid-level cybersecurity job openings including consultants, architects, compliance specialists, and more.",
+};
 
 import Image from "next/image";
 import {
@@ -12,6 +15,7 @@ import {
   Mail,
   ArrowRightCircle,
 } from "lucide-react";
+import Link from "next/link";
 
 export default function CareersPage() {
   const jobs = [
@@ -89,9 +93,9 @@ export default function CareersPage() {
       {/* HERO */}
       <header className="relative">
         <div className="h-64 sm:h-80 lg:h-96 relative overflow-hidden">
-          {/* Using uploaded local file path as hero image */}
+          
           <Image
-            src="/mnt/data/40d6204c-9527-453c-9407-1677d52894bc.png"
+            src="/career.jpg"
             alt="Careers hero"
             fill
             style={{ objectFit: "cover" }}
@@ -108,19 +112,19 @@ export default function CareersPage() {
                 cybersecurity experts passionate about protecting organisations worldwide.
               </p>
               <div className="mt-6 flex justify-center gap-3">
-                <a
-                  href="#open-positions"
+                <Link
+                  href="/"
                   className="inline-flex items-center gap-2 px-5 py-3 bg-indigo-600 text-white rounded-xl font-medium shadow hover:bg-indigo-700 transition"
                 >
                   View Open Positions
                   <ArrowRightCircle className="w-5 h-5" />
-                </a>
-                <a
-                  href="#culture"
+                </Link>
+                <Link
+                  href="/"
                   className="inline-flex items-center gap-2 px-5 py-3 bg-white/90 text-slate-900 rounded-xl font-medium shadow hover:opacity-95 transition"
                 >
                   Our Culture
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -262,18 +266,18 @@ export default function CareersPage() {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <a
-                    href="#apply"
+                  <Link
+                    href="/"
                     className="px-4 py-2 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition"
                   >
                     Apply Now
-                  </a>
-                  <a
-                    href="#details"
+                  </Link>
+                  <Link
+                    href="/"
                     className="px-4 py-2 border border-slate-200 rounded-lg text-slate-700 hover:bg-slate-50 transition"
                   >
                     Details
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -357,9 +361,9 @@ export default function CareersPage() {
             <button type="submit" className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700">
               Send Your Resume
             </button>
-            <a href="/contact" className="px-6 py-3 border rounded-xl text-slate-700 hover:bg-slate-50">
+            <Link href="/contact" className="px-6 py-3 border rounded-xl text-slate-700 hover:bg-slate-50">
               Contact Us
-            </a>
+            </Link>
           </div>
         </form>
       </section>
@@ -368,7 +372,7 @@ export default function CareersPage() {
       <section className="py-12 bg-indigo-600 text-white text-center">
         <h4 className="text-xl font-semibold">Ready to help secure the digital world?</h4>
         <p className="mt-2 text-white/90">Join CyberSecurity Finland and make an impact.</p>
-        <a href="#apply" className="mt-4 inline-block px-6 py-3 bg-white text-indigo-700 rounded-xl font-semibold">Send Resume</a>
+        <Link href="#apply" className="mt-4 inline-block px-6 py-3 bg-white text-indigo-700 rounded-xl font-semibold">Send Resume</Link>
       </section>
     </div>
   );

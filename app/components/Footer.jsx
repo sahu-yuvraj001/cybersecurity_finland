@@ -12,8 +12,20 @@ const navItems = [
 const services = [
   { name: "ISO 27001 Compliance", href: "/services/regulatory-compliance" },
   { name: "GDPR Readiness", href: "/services/regulatory-compliance/gdpr" },
-  { name: "NIS2 Consulting", href: "/services/regulatory-compliance/nis2-compliance" },
-  { name: "Governance & Policy", href: "/services/governance/policy-governance" },
+  {
+    name: "NIS2 Consulting",
+    href: "/services/regulatory-compliance/nis2-compliance",
+  },
+  {
+    name: "Governance & Policy",
+    href: "/services/governance/policy-governance",
+  },
+];
+const socialLinks = [
+  { icon: Facebook, label: "Facebook", href: "https://facebook.com" },
+  { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com" },
 ];
 export default function Footer() {
   return (
@@ -87,12 +99,15 @@ export default function Footer() {
 
             {/* Social Icons */}
             <div className="flex items-center gap-4 mt-5">
-              {[Facebook, Twitter, Linkedin, Github].map((Icon, i) => (
+              {socialLinks.map(({ icon: Icon, label, href }, i) => (
                 <motion.a
                   whileHover={{ scale: 1.15, y: -2 }}
                   transition={{ duration: 0.2 }}
                   key={i}
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label} // ✅ This fixes the accessibility issue
                   className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 transition"
                 >
                   <Icon size={18} className="text-slate-300" />
@@ -134,19 +149,19 @@ export default function Footer() {
             }}
           >
             <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
-           <ul className="space-y-3 text-sm">
-  {services.map((service) => (
-    <motion.li
-      key={service.name}
-      whileHover={{ x: 4 }}
-      transition={{ duration: 0.2 }}
-    >
-      <Link href={service.href} className="hover:text-white">
-        {service.name}
-      </Link>
-    </motion.li>
-  ))}
-</ul>
+            <ul className="space-y-3 text-sm">
+              {services.map((service) => (
+                <motion.li
+                  key={service.name}
+                  whileHover={{ x: 4 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <Link href={service.href} className="hover:text-white">
+                    {service.name}
+                  </Link>
+                </motion.li>
+              ))}
+            </ul>
           </motion.div>
 
           {/* Contact */}
@@ -162,7 +177,7 @@ export default function Footer() {
               <li>📞 +358 123 456 789</li>
               <li>📧 info@cyberguardify.com</li>
               <motion.li whileHover={{ x: 4 }}>
-                <Link className="hover:text-white" href="/"> 
+                <Link className="hover:text-white" href="/">
                   Support Center ↗
                 </Link>
               </motion.li>

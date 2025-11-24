@@ -1,3 +1,28 @@
+export const metadata = {
+  title: "Certifications & Partnerships | Cybersecurity Finland (CSF)",
+  description:
+    "Explore CSF's official cybersecurity certifications including ISO 27001, SOC 2 Type II, Cyber Essentials Plus, GDPR, NIS2, DORA, eIDAS, and more. Trusted by global industry leaders for security excellence.",
+  keywords: [
+    "CSF certifications",
+    "cybersecurity certifications Finland",
+    "ISO 27001 Finland",
+    "SOC 2 Type II",
+    "Cyber Essentials Plus",
+    "GDPR compliance",
+    "NIS2 compliance",
+    "DORA compliance",
+    "eIDAS certification",
+    "cybersecurity company Finland",
+  ],
+  openGraph: {
+    title: "Certifications & Partnerships | Cyber Security Finland",
+    description:
+      "Official cybersecurity certifications including ISO 27001, SOC 2, Cyber Essentials Plus, GDPR, NIS2, DORA, and more.",
+    url: "https://cybersecurity.fi/certifications",
+    siteName: "Cybersecurity.fi",
+    type: "website",
+  },
+};
 import { PiCertificate } from "react-icons/pi";
 export default function CertificationsPage() {
   return (

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RegulatoryCenter() {
   return (
     <div className="bg-white">
@@ -17,18 +19,18 @@ export default function RegulatoryCenter() {
         </p>
 
         <div className="mt-6 flex flex-wrap gap-4">
-          <a
+          <Link
             href="#regulations"
             className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold shadow hover:bg-indigo-700 transition"
           >
             Explore Regulations
-          </a>
-          <a
+          </Link>
+          <Link
             href="#help"
             className="px-6 py-3 border border-slate-300 rounded-xl font-semibold hover:bg-slate-50 transition"
           >
             Get Compliance Help
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -145,12 +147,12 @@ export default function RegulatoryCenter() {
                   ))}
                 </ul>
 
-                <a
-                  href="#"
+                <Link
+                  href="/contact"
                   className="mt-5 inline-block text-indigo-600 font-medium hover:underline"
                 >
                   Read Full Guide →
-                </a>
+                </Link>
               </div>
             ))}
           </div>
@@ -231,12 +233,12 @@ export default function RegulatoryCenter() {
           and implement effective solutions.
         </p>
 
-        <a
+        <Link
           href="/contact"
           className="mt-6 inline-block px-8 py-3 bg-white text-indigo-700 font-semibold rounded-xl shadow hover:bg-indigo-50 transition"
         >
           Schedule Consultation
-        </a>
+        </Link>
       </section>
     </div>
   );

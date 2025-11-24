@@ -1,4 +1,9 @@
 
+export const metadata = {
+  title: "ISO 27001 Services | ISMS Implementation & Certification",
+  description: "Expert ISO 27001 gap analysis, ISMS implementation, internal audits, and end-to-end certification support to achieve compliance faster and reduce audit costs.",
+};
+import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 
@@ -45,13 +50,13 @@ export default function ISO27001LandingPage() {
             <div className="relative">
               {/* image card */}
               <div className="rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/10">
-                <img src="/iso.jpg" alt="ISO services" className="w-full h-80 object-cover sm:h-96 md:h-[520px]" />
+                <Image src="/iso.jpg" alt="ISO services" className="w-full h-80 object-cover sm:h-96 md:h-[520px]" />
               </div>
 
               <div className="absolute left-6 bottom-6 bg-white/90 backdrop-blur-md rounded-xl p-4 shadow-md border border-white/30 w-64">
                 <h4 className="text-sm font-semibold">Ready to start?</h4>
                 <p className="text-xs mt-1 text-slate-700">Book a free 30-minute consultation with our ISO experts.</p>
-                <a href="#contact" className="mt-3 inline-block text-sm font-medium text-indigo-600">Contact our experts →</a>
+                <Link href="#contact" className="mt-3 inline-block text-sm font-medium text-indigo-600">Contact our experts →</Link>
               </div>
             </div>
           </div>

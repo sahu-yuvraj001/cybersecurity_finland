@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function WebinarsPage() {
   return (
     <div className="bg-white py-20">
@@ -21,18 +23,18 @@ export default function WebinarsPage() {
 
         {/* CTA BUTTONS */}
         <div className="mt-10 flex items-center justify-center gap-4">
-          <a
+          <Link
             href="#upcoming"
             className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow hover:bg-indigo-700 transition"
           >
             View Upcoming Webinars
-          </a>
-          <a
+          </Link>
+          <Link
             href="#past"
             className="px-6 py-3 bg-white border border-slate-300 text-slate-900 font-semibold rounded-xl shadow hover:bg-slate-100 transition"
           >
             Browse Past Sessions
-          </a>
+          </Link>
         </div>
 
         {/* UPCOMING WEBINARS */}
@@ -200,12 +202,12 @@ export default function WebinarsPage() {
             Looking for more cybersecurity training resources?
           </p>
 
-          <a
+          <Link
             href="/resources"
             className="mt-4 inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow hover:bg-indigo-700 transition"
           >
             Browse All Resources
-          </a>
+          </Link>
 
           <h2 className="font-playfair mt-20 text-3xl font-bold text-slate-900">            Transform Your Cybersecurity Today.
           </h2>
@@ -215,12 +217,12 @@ export default function WebinarsPage() {
             revolutionize your digital protection and compliance.
           </p>
 
-          <a
+          <Link
             href="/contact"
             className="mt-8 inline-block px-8 py-4 bg-indigo-600 text-white font-semibold rounded-xl shadow hover:bg-indigo-700 transition"
           >
             Get Started
-          </a>
+          </Link>
         </div>
 
       </div>

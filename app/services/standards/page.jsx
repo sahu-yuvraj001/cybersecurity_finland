@@ -1,3 +1,36 @@
+import Link from "next/link";
+
+export const metadata = {
+  title: "Cybersecurity & Compliance Standards Services | ISO, SOC, HITRUST",
+  description:
+    "Explore our comprehensive cybersecurity and compliance services including ISO 27001, ISO 27701, SOC 1/2, HITRUST CSF, TISAX, and more. Expert guidance for audits, certification readiness, and risk management.",
+  keywords: [
+    "ISO 27001 services", "SOC 2 readiness", "HITRUST CSF", "TISAX", 
+    "cybersecurity compliance", "ISMS implementation", "audit readiness", 
+    "privacy management", "IT service management"
+  ],
+  openGraph: {
+    title: "Cybersecurity & Compliance Standards Services",
+    description: "Expert services for ISO, SOC, HITRUST, TISAX, and more to ensure certification readiness and compliance.",
+    url: "https://yourdomain.com/services/standards",
+    siteName: "Your Company Name",
+    images: [
+      {
+        url: "/standards-banner.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Cybersecurity and Compliance Standards"
+      }
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cybersecurity & Compliance Standards Services",
+    description: "Comprehensive ISO, SOC, HITRUST, and TISAX services for audit readiness and compliance.",
+    images: ["/standards-banner.jpg"],
+  },
+};
 export default function StandardsPage() {
  const items = [
   {
@@ -135,12 +168,12 @@ export default function StandardsPage() {
             </h3>
             <p className="text-slate-600 mb-3">{item.desc}</p>
 
-            <a
+            <Link
               href={item.href}
               className="text-indigo-600 font-medium hover:text-indigo-800 transition"
             >
               Read more →
-            </a>
+            </Link>
           </div>
         ))}
       </div>

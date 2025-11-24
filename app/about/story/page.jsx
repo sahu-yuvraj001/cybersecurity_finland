@@ -1,4 +1,28 @@
-"use client";
+export const metadata = {
+  title: "About CSF | Cyber Security Finland | Cybersecurity Services & Compliance",
+  description:
+    "Learn about Cyber Security Finland (CSF), a trusted global cybersecurity provider specializing in GRC, penetration testing, ISO 27001, GDPR, NIS2 compliance, red teaming, incident response, and threat assessment services.",
+  keywords: [
+    "Cyber Security Finland",
+    "CSF cybersecurity",
+    "cybersecurity Finland",
+    "penetration testing Finland",
+    "GDPR compliance Finland",
+    "NIS2 consultants Finland",
+    "ISO 27001 experts",
+    "GRC services",
+    "risk assessment",
+    "cybersecurity company Helsinki"
+  ],
+  openGraph: {
+    title: "About CSF | Cyber Security Finland",
+    description:
+      "Discover CSF, a global cybersecurity leader offering penetration testing, compliance services, GRC consulting, and advanced security solutions.",
+    url: "https://cybersecurity.fi/about",
+    siteName: "Cybersecurity.fi",
+    type: "website",
+  },
+};
 import React from "react";
 import { ShieldCheck, Globe, Users, Building } from "lucide-react";
 

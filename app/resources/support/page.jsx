@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SupportTools() {
   return (
     <div className="bg-white">
@@ -13,19 +15,19 @@ export default function SupportTools() {
         </p>
 
         <div className="mt-6 flex flex-wrap gap-4">
-          <a
-            href="#tools"
+          <Link
+            href="/"
             className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold shadow hover:bg-indigo-700 transition"
           >
             Browse Tools
-          </a>
+          </Link>
 
-          <a
-            href="#support"
+          <Link
+            href="/"
             className="px-6 py-3 border border-slate-300 rounded-xl font-semibold hover:bg-slate-50 transition"
           >
             Contact Support
-          </a>
+          </Link>
         </div>
 
         {/* Stats */}
@@ -121,12 +123,12 @@ export default function SupportTools() {
                   ))}
                 </ul>
 
-                <a
+                <Link
                   className="mt-5 inline-block text-indigo-600 font-medium hover:underline text-sm"
-                  href="#"
+                  href="/"
                 >
                   Explore Content →
-                </a>
+                </Link>
               </div>
             ))}
           </div>
@@ -197,18 +199,18 @@ export default function SupportTools() {
         </p>
 
         <div className="mt-6 flex justify-center gap-4">
-          <a
+          <Link
             href="/contact"
             className="px-8 py-3 bg-white text-indigo-700 font-semibold rounded-xl shadow hover:bg-indigo-50 transition"
           >
             Contact Us
-          </a>
-          <a
+          </Link>
+          <Link
             href="/demo"
             className="px-8 py-3 border border-white text-white font-semibold rounded-xl hover:bg-white hover:text-indigo-700 transition"
           >
             Book Demo
-          </a>
+          </Link>
         </div>
       </section>
 

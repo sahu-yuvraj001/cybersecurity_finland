@@ -1,3 +1,33 @@
+export const metadata = {
+  title: "SOC 2 Readiness Services | Type I & II Audit Preparation",
+  description:
+    "Prepare for SOC 2 Type I and Type II audits with expert control mapping, evidence collection, and Trust Services Criteria alignment. Ensure compliance and audit readiness.",
+  keywords: [
+    "SOC 2 readiness", "SOC 2 Type I", "SOC 2 Type II", "audit preparation", 
+    "control mapping", "evidence collection", "Trust Services Criteria", "compliance support"
+  ],
+  openGraph: {
+    title: "SOC 2 Readiness Services",
+    description: "Expert SOC 2 readiness services for Type I and II audits including control mapping and evidence collection.",
+    url: "https://yourdomain.com/services/soc-2-readiness",
+    siteName: "Your Company Name",
+    images: [
+      {
+        url: "/soc2-readiness.jpg",
+        width: 1200,
+        height: 630,
+        alt: "SOC 2 readiness services"
+      }
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SOC 2 Readiness Services",
+    description: "Prepare your organization for SOC 2 audits with expert guidance on controls, evidence, and compliance.",
+    images: ["/soc2-readiness.jpg"],
+  },
+};
 import Link from "next/link";
 import React from "react";
 

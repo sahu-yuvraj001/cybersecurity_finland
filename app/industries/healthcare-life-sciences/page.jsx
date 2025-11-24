@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Healthcare & Life Sciences Cybersecurity | HIPAA, GDPR & NIS2 Compliance",
+  description:
+    "Cybersecurity, HIPAA compliance, GDPR protection, medical device security and NIS2 compliance services for healthcare and life sciences organizations.",
+};
 export default function HealthcareLifeSciences() {
   return (
     <div className="bg-white text-slate-800">

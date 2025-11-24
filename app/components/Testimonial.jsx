@@ -1,4 +1,4 @@
- "use client";
+"use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -100,7 +100,9 @@ export default function TestimonialsCarouselFloating() {
       aria-label="Client testimonials carousel"
     >
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="font-playfair text-4xl font-bold mb-3">What Our Clients Say</h2>
+        <h2 className="font-playfair text-4xl font-bold mb-3">
+          What Our Clients Say
+        </h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-10">
           Real feedback from enterprise clients, research partners and teams we
           helped to comply with GDPR.
@@ -171,16 +173,20 @@ export default function TestimonialsCarouselFloating() {
               </AnimatePresence>
 
               {/* Dots */}
-              <div className="flex justify-center gap-2 mt-6">
+              <div className="flex justify-center gap-3 mt-6">
                 {testimonials.map((_, i) => (
                   <button
                     key={i}
                     aria-label={`Go to testimonial ${i + 1}`}
                     onClick={() => setCurrent(i)}
-                    className={`h-3 w-3 rounded-full transition ${
-                      i === current ? "bg-indigo-600" : "bg-gray-300"
-                    }`}
-                  />
+                    className="h-10 w-10 flex items-center justify-center rounded-full transition"
+                  >
+                    <span
+                      className={`block h-3 w-3 rounded-full ${
+                        i === current ? "bg-indigo-600" : "bg-gray-300"
+                      }`}
+                    ></span>
+                  </button>
                 ))}
               </div>
             </div>

@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "IEC 62443 OT/ICS Security Services",
+  description: "Expert IEC 62443 compliance services for industrial automation and control systems. Achieve OT/ICS security maturity, gap analysis, and certification support.",
+};
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -7,7 +12,7 @@ export default function IEC62443Landing() {
       {/* HERO */}
       <header className="relative overflow-hidden bg-gradient-to-b from-orange-50 to-white">
         <div className="absolute inset-0 -z-10">
-          <img
+          <Image
             src="/mnt/data/96f3b4f4-1aa2-4ff6-baab-a9ce86b0d547.png"
             alt="old IEC 62443 design"
             className="w-full h-full object-cover opacity-5 blur-sm"

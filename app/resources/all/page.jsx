@@ -1,3 +1,10 @@
+export const metadata = {
+  title: "All Resources | Cybersecurity Downloads & Documents",
+  description:
+    "Find all cybersecurity documents, compliance guides, templates, and resource downloads. Updated and organized for easy access.",
+};
+
+import Link from "next/link";
 import React from "react";
 
 function AllResource() {
@@ -26,12 +33,12 @@ function AllResource() {
           </p>
 
           <div className="mt-6">
-            <a
+            <Link
               href="/resources"
               className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow hover:bg-indigo-700 transition"
             >
               Go to Resources
-            </a>
+            </Link>
           </div>
         </div>
 

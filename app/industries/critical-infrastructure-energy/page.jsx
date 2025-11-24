@@ -1,3 +1,34 @@
+export const metadata = {
+  title: "Critical Infrastructure Cybersecurity | NIS2, OT Security & Risk Management",
+  description:
+    "Cybersecurity solutions for energy, utilities, transportation, industrial systems, and critical infrastructure. NIS2 compliance, OT security, risk management, and business continuity services.",
+  keywords: [
+    "critical infrastructure cybersecurity",
+    "OT security",
+    "SCADA security",
+    "NIS2 compliance",
+    "energy cybersecurity",
+    "industrial cybersecurity",
+    "critical systems protection",
+    "business continuity",
+  ],
+  openGraph: {
+    title: "Critical Infrastructure Cybersecurity | NIS2, OT Security & Risk Management",
+    description:
+      "Specialized cybersecurity services for energy, utilities, and critical infrastructure. Protect critical systems, ensure compliance, and improve resilience.",
+    url: "https://yourdomain.com/services/critical-infrastructure",
+    images: [
+      {
+        url: "/og-critical-infrastructure.png",
+        width: 1200,
+        height: 630,
+        alt: "Critical Infrastructure Cybersecurity",
+      },
+    ],
+  },
+};
+import Link from "next/link";
+
 export default function CriticalInfrastructure() {
   return (
     <div className="bg-white">
@@ -122,18 +153,18 @@ export default function CriticalInfrastructure() {
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
-              href="#"
+            <Link
+              href="/"
               className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg shadow hover:bg-slate-100"
             >
               Get in Touch
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/"
               className="bg-indigo-500 text-white font-semibold px-6 py-3 rounded-lg border border-white/30 hover:bg-indigo-700"
             >
               Learn More About NIS2
-            </a>
+            </Link>
           </div>
         </div>
       </section>

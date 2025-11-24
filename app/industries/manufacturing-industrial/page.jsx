@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Manufacturing & Industrial Cybersecurity | OT, IoT & Compliance Services",
+  description:
+    "Cybersecurity, OT security, IoT device protection, SCADA security, and regulatory compliance services for manufacturing and industrial organizations.",
+};
+
 export default function ManufacturingCybersecurity() {
   return (
     <div className="bg-white">

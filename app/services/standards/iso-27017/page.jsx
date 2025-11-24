@@ -1,5 +1,9 @@
+export const metadata = {
+  title: "ISO 27017 & 27018 Cloud Security | Compliance & Implementation",
+  description: "Expert ISO 27017 cloud security and ISO 27018 cloud privacy services to implement robust cloud security controls and achieve regulatory compliance.",
+};
 
-
+import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 
@@ -36,7 +40,7 @@ export default function ISOCloudSecurityPage() {
 
           <div className="w-full lg:w-1/2">
             <div className="rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
-              <img src="/cloud.jpg" alt="Cloud security illustration" className="w-full h-64 sm:h-80 md:h-96 object-cover" />
+              <Image src="/cloud.jpg" alt="Cloud security illustration" className="w-full h-64 sm:h-80 md:h-96 object-cover" />
             </div>
           </div>
         </div>

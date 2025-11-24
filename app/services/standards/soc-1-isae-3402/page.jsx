@@ -1,3 +1,36 @@
+
+export const metadata = {
+  title: "SOC 1 / ISAE 3402 Attestation Services | Financial Controls & Audit Support",
+  description:
+    "Achieve SOC 1 and ISAE 3402 compliance with expert gap analysis, control mapping, and audit readiness support. Reduce audit risk and accelerate financial control certification.",
+  keywords: [
+    "SOC 1", "ISAE 3402", "financial controls", "audit readiness", "attestation support",
+    "control mapping", "evidence management", "compliance support"
+  ],
+  openGraph: {
+    title: "SOC 1 / ISAE 3402 Attestation Services",
+    description:
+      "Expert SOC 1 and ISAE 3402 services including readiness assessment, control documentation, and audit support for financial reporting.",
+    url: "https://yourdomain.com/services/soc1-isae3402",
+    siteName: "Your Company Name",
+    images: [
+      {
+        url: "/soc1-isae3402.jpg",
+        width: 1200,
+        height: 630,
+        alt: "SOC 1 / ISAE 3402 Compliance"
+      }
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SOC 1 / ISAE 3402 Attestation Services",
+    description:
+      "Accelerate SOC 1 and ISAE 3402 compliance with expert guidance for financial controls, control mapping, and audit readiness.",
+    images: ["/soc1-isae3402.jpg"],
+  },
+};
 import Link from "next/link";
 import React from "react";
 

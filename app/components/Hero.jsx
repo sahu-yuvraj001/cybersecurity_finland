@@ -44,7 +44,7 @@ export default function Hero() {
                 show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
               }}
               className="font-playfair mt-6 text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight text-slate-900"
-          >
+            >
               Advancing Europe's{" "}
               <span className="font-playfair text-transparent bg-clip-text bg-linear-to-r from-indigo-600 to-sky-500">
                 Cyber Resilience
@@ -90,14 +90,16 @@ export default function Hero() {
             viewport={{ once: true }}
             className="lg:col-span-7"
           >
-            <div className="relative rounded-2xl shadow-xl border border-slate-200 overflow-hidden bg-white/70 backdrop-blur-sm">
+            <div className="relative w-full h-[400px] md:h-[500px] lg:h-[450px] rounded-2xl shadow-xl border border-slate-200 overflow-hidden bg-white/70 backdrop-blur-sm">
               <Image
                 src="/heropic.jpg"
                 alt="Cybersecurity dashboard mockup"
-                width={1200}
-                height={800}
-                className="object-cover w-full h-auto"
+                fill
                 priority
+                style={{ objectFit: "cover" }}
+                quality={75}
+                 fetchPriority="high"
+                
               />
             </div>
           </motion.div>

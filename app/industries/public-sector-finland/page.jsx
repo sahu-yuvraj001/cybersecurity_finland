@@ -1,3 +1,11 @@
+import Link from "next/link";
+
+export const metadata = {
+  title: "Public Sector Cybersecurity | NIS2 & ISO 27001 Services",
+  description:
+    "Cybersecurity and compliance services for government agencies, municipalities, and public sector organizations in Finland. Achieve NIS2 compliance, citizen data protection, and ISO 27001 certification.",
+};
+
 export default function PublicSectorCybersecurity() {
   return (
     <div className="bg-white">
@@ -136,19 +144,19 @@ export default function PublicSectorCybersecurity() {
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
+            <Link
               href="#"
               className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg shadow hover:bg-slate-100"
             >
               Get in Touch
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="#"
               className="bg-indigo-500 text-white font-semibold px-6 py-3 rounded-lg border border-white/30 hover:bg-indigo-700"
             >
               Learn More About NIS2
-            </a>
+            </Link>
           </div>
         </div>
       </section>

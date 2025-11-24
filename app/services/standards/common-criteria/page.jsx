@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Common Criteria Certification Services",
+  description: "Expert Common Criteria services including Security Targets (ST), Protection Profiles (PP), and evaluation guidance for IT products.",
+};
 import Link from "next/link";
 import React from "react";
 

@@ -1,3 +1,39 @@
+export const metadata = {
+  title: "ePrivacy & Cookie Compliance Services | EU Cookie Law Solutions",
+  description:
+    "End-to-end ePrivacy and cookie compliance services including cookie audits, consent management, tracking governance, and digital marketing compliance for EU regulations.",
+  keywords: [
+    "ePrivacy compliance",
+    "EU cookie law",
+    "cookie consent management",
+    "cookie audit",
+    "tracking compliance",
+    "GDPR cookies",
+  ],
+  openGraph: {
+    title: "ePrivacy & Cookie Compliance Services",
+    description:
+      "Comprehensive cookie compliance including audits, consent tools, tracking governance, and EU regulatory support.",
+    url: "https://your-domain.com/services/regulatory-compliance/eprivacy",
+    type: "article",
+    images: [
+      {
+        url: "/og/eprivacy.jpg",
+        width: 1200,
+        height: 630,
+        alt: "ePrivacy Compliance",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ePrivacy & Cookie Compliance Services",
+    description:
+      "Cookie compliance services including audits, consent management, and tracking governance.",
+    images: ["/og/eprivacy.jpg"],
+  },
+};
+
 import Image from "next/image";
 import Link from "next/link";
 

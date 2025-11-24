@@ -1,3 +1,11 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export const metadata = {
+  title: "Regulatory Frameworks | Cybersecurity Compliance & Standards",
+  description:
+    "Explore NIS2, GDPR, DORA, ISO 27001, SOC2 and other major global cybersecurity regulatory frameworks with implementation guides and compliance support.",
+};
 export default function RegulatoryFrameworks() {
   return (
     <div className="bg-white">
@@ -14,19 +22,19 @@ export default function RegulatoryFrameworks() {
             </p>
 
             <div className="mt-6 flex flex-wrap gap-4">
-              <a
+              <Link
                 href="#frameworks"
                 className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold shadow hover:bg-indigo-700 transition"
               >
                 Browse Regulations
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="#contact"
                 className="px-6 py-3 border border-slate-300 rounded-xl font-semibold hover:bg-slate-50 transition"
               >
                 Get Expert Help
-              </a>
+              </Link>
             </div>
 
             {/* STATS */}
@@ -51,10 +59,12 @@ export default function RegulatoryFrameworks() {
           </div>
 
           <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-            {/* local image you uploaded (developer asked to include the path) */}
-            <img
+            
+            <Image
               src="/regulatory.png"
               alt="Regulatory frameworks visual"
+              width={200}
+              height={200}
               className="w-full h-full object-cover"
             />
           </div>
@@ -199,18 +209,18 @@ export default function RegulatoryFrameworks() {
                 </div>
 
                 <div className="mt-6 flex items-center justify-between">
-                  <a
+                  <Link
                     href="#"
                     className="px-4 py-2 text-sm border border-indigo-600 text-indigo-700 rounded-lg hover:bg-indigo-50 transition"
                   >
                     Learn More
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#contact"
                     className="text-sm text-slate-600 hover:text-slate-800 transition"
                   >
                     Request Support
-                  </a>
+                  </Link>
                 </div>
               </article>
             ))}
@@ -227,18 +237,18 @@ export default function RegulatoryFrameworks() {
           </p>
 
           <div className="mt-6 flex items-center justify-center gap-4">
-            <a
+            <Link
               href="/contact"
               className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-semibold shadow hover:bg-indigo-700 transition"
             >
               Contact Us
-            </a>
-            <a
+            </Link>
+            <Link
               href="/demo"
               className="px-6 py-3 border border-slate-300 rounded-xl font-semibold hover:bg-slate-50 transition"
             >
               Book Demo
-            </a>
+            </Link>
           </div>
         </div>
       </section>

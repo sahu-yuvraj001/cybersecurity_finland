@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RiskAssessments() {
   return (
     <div className="bg-white">
@@ -127,18 +129,18 @@ export default function RiskAssessments() {
         </p>
 
         <div className="mt-8 flex justify-center gap-4">
-          <a
+          <Link
             href="/contact"
             className="px-6 py-3 rounded-xl bg-slate-900 text-white font-semibold hover:bg-slate-800 transition"
           >
             Get in Touch
-          </a>
-          <a
+          </Link>
+          <Link
             href="/consultation"
             className="px-6 py-3 rounded-xl border border-slate-300 font-semibold hover:bg-slate-100 transition"
           >
             Book Consultation
-          </a>
+          </Link>
         </div>
       </section>
 

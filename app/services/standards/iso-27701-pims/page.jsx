@@ -1,4 +1,33 @@
-// ISO27701Page.jsx - Next.js + Tailwind fully responsive landing page
+
+export const metadata = {
+  title: "ISO 27701 Implementation & PIMS Services | GDPR Privacy Compliance",
+  description: "Achieve ISO 27701 (PIMS) certification and GDPR-aligned privacy management. Extend your ISMS to privacy with expert implementation, gap analysis, and compliance support.",
+  keywords: [
+    "ISO 27701", "PIMS implementation", "GDPR compliance", "privacy management system", "ISO 27001 privacy extension", "data protection", "information security"
+  ],
+  openGraph: {
+    title: "ISO 27701 Implementation & PIMS Services",
+    description: "Achieve GDPR-aligned ISO 27701 certification with expert guidance. Build a Privacy Information Management System and extend your ISMS.",
+    url: "https://yourdomain.com/services/iso-27701",
+    siteName: "Your Company Name",
+    images: [
+      {
+        url: "/iso-27701.jpg",
+        width: 1200,
+        height: 630,
+        alt: "ISO 27701 Privacy Information Management System"
+      }
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ISO 27701 Implementation & PIMS Services",
+    description: "Achieve GDPR-aligned ISO 27701 certification with expert guidance.",
+    images: ["/iso-27701.jpg"],
+  },
+}
 import Link from 'next/link'
 import React from 'react'
 
@@ -107,8 +136,8 @@ export default function ISO27701Page() {
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a href="#" className="bg-white text-purple-700 px-6 py-3 rounded-md font-semibold shadow">Start Your PIMS Implementation</a>
-            <a href="#" className="border border-white px-6 py-3 rounded-md hover:bg-white/10">Learn More About Us</a>
+            <Link href="/" className="bg-white text-purple-700 px-6 py-3 rounded-md font-semibold shadow">Start Your PIMS Implementation</Link>
+            <Link href="/" className="border border-white px-6 py-3 rounded-md hover:bg-white/10">Learn More About Us</Link>
           </div>
         </div>
       </section>

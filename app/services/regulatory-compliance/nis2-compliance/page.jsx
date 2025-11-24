@@ -1,9 +1,38 @@
+import Image from "next/image";
 import Link from "next/link";
-
 export const metadata = {
-  title: "NIS2 Compliance Services | Cybersecurity.fi",
+  title: "NIS2 Compliance Services | EU Cybersecurity Requirements",
   description:
-    "Expert NIS2 compliance guidance for essential and important entities — gap analysis, risk management, incident reporting and technical controls.",
+    "Achieve NIS2 compliance with gap assessments, security controls, incident reporting, and governance for essential and important EU entities.",
+  keywords: [
+    "NIS2 compliance",
+    "EU cybersecurity law",
+    "essential entities security",
+    "incident reporting EU",
+    "Cybersecurity governance",
+  ],
+  openGraph: {
+    title: "NIS2 Compliance Services",
+    description:
+      "Full NIS2 compliance support including cybersecurity governance, risk management, monitoring, and EU regulatory requirements.",
+    url: "https://your-domain.com/services/regulatory-compliance/nis2-compliance",
+    type: "article",
+    images: [
+      {
+        url: "/og/nis2.jpg",
+        width: 1200,
+        height: 630,
+        alt: "NIS2 Compliance Image",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NIS2 Compliance Services",
+    description:
+      "Secure your EU organization with complete NIS2 compliance solutions.",
+    images: ["/og/nis2.jpg"],
+  },
 };
 
 export default function NIS2CompliancePage() {
@@ -150,7 +179,7 @@ export default function NIS2CompliancePage() {
 
           {/* RIGHT SIDE IMAGE */}
           <div className="flex justify-center lg:justify-end">
-            <img
+            <Image
               src="/nis2.jpg" // change to your image path
               alt="NIS2 Compliance"
               className="w-full max-w-xl rounded-xl shadow-lg object-cover"

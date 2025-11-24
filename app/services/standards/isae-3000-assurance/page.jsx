@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "ISAE 3000 Assurance & Attestation Services",
+  description: "Independent attestation and expert support for ISAE 3000 security and privacy control suites. Achieve audit-ready compliance efficiently.",
+};
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -8,7 +13,7 @@ export default function ISAE3000Landing() {
       <header className="relative overflow-hidden bg-gradient-to-b from-sky-50 to-white">
         <div className="absolute inset-0 -z-10">
           {/* Using client's old-site screenshot as a subtle decorative background. */}
-          <img
+          <Image
             src="/mnt/data/74ca8ce0-6edb-4041-98ca-1c0c16ad499f.png"
             alt="old site screenshot"
             className="w-full h-full object-cover opacity-5 blur-sm"

@@ -5,6 +5,7 @@ import { ShieldCheck, BookOpen, ArrowRight, CheckCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+
 export default function Gdpr() {
   return (
     <main className="min-h-screen bg-linear-to-b from-white to-slate-100 text-slate-800">

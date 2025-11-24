@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "DORA Compliance | Cybersecurity.fi",
@@ -137,19 +138,19 @@ export default function DoraCompliancePage() {
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12">
-              <a
+              <Link
                 href="/contact"
                 className="px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition"
               >
                 Start DORA Assessment
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="/industries/financial-services"
                 className="px-6 py-3 rounded-lg border border-slate-300 text-slate-700 hover:bg-slate-100 transition"
               >
                 View Financial Services
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -233,12 +234,12 @@ export default function DoraCompliancePage() {
               ))}
             </ul>
 
-            <a
-              href="#"
+            <Link
+              href="/"
               className="text-indigo-600 text-sm font-medium hover:underline"
             >
               {e.link}
-            </a>
+            </Link>
           </div>
         ))}
       </div>
@@ -289,12 +290,12 @@ export default function DoraCompliancePage() {
           with comprehensive digital operational resilience capabilities.
         </p>
 
-        <a
-          href="#"
+        <Link
+          href="/"
           className="px-6 py-3 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition"
         >
           Start DORA Assessment
-        </a>
+        </Link>
       </div>
     </main>
   );

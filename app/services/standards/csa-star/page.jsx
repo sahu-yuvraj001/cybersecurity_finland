@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "CSA STAR Cloud Security Certification",
+  description: "Achieve CSA STAR Level 1-3 certifications and demonstrate excellence in cloud security management with our expert guidance.",
+};
 import Link from "next/link";
 import React from "react";
 
